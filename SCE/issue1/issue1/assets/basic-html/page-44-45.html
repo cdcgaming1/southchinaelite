@@ -1,0 +1,638 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, minimum-scale=0.5, user-scalable=yes, maximum-scale=2.0, target-densitydpi=device-dpi" />
+
+    <title>South China Elite #1</title>
+
+    <meta charset="utf-8">
+
+    <meta name="robots" content="all"/>
+
+	<link href="./styles/style.css" type="text/css" rel="stylesheet" />
+	<link href="./styles/mobile.css" type="text/css" rel="stylesheet" />
+	
+    <script type="text/javascript">
+    CURRENT_PAGE = "44-45";
+    MAIN_PAGE     = "index.html";
+    FILES_FOLDER  = "issue1";
+    HTML5_PUBLICATION = true;
+
+
+    
+    </script>
+	
+	
+	<script src="./javascript/init.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        STATIC_FOLDER = ".";
+        DYNAMIC_FOLDER = "./..";
+
+        PUBLICATION_NAME = "South China Elite #1";
+
+        CURRENT_VERSION = "2.8.16";
+
+        LANGS = ['en','ar','de','es','fi','fr','he','it','ja','nl','no','pl','pt','ru','sv','tr','zh'];
+        PUBLICATION_TYPE = "catalog";
+        VIDEOS_INFO = {};
+
+    var main = function () {
+
+        loadScript('./javascript/localizator.js',function(){});
+
+        if (document.domain.indexOf('publ.com') != -1 || document.domain.indexOf('cld.bz') != -1 || document.domain.indexOf('cld.mobi') != -1 || document.domain.indexOf('cld.local') != -1) {
+            var staticServer = window.location.protocol === 'https:' ? 'https://d2ayihadozxfln.cloudfront.net' : ('http://static.' + window.location.hostname);
+            var url = staticServer + "/publication/" + CURRENT_VERSION + "/basic/cloud.js";
+            loadScript(url,function(){});
+        }
+
+    }
+
+    if (!!window.addEventListener) {
+        window.addEventListener('load', main);
+    } else {
+        window.attachEvent('onload', main);
+    }
+
+    function loadScript(url, callback){
+        var head = document.getElementsByTagName("head")[0];
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = url;
+        head.appendChild(script);
+        if (script.readyState){
+            script.onreadystatechange = function(){
+                if (script.readyState == "loaded" ||
+						script.readyState == "complete"){
+                    script.onreadystatechange = null;
+                    callback();
+                }
+            };
+        } else {
+            script.onload = function(){
+                callback();
+            };
+        }
+    }
+    </script>
+
+
+    <style type="text/css">
+        .areaLinkItem:hover, .contentItemHover:hover, .emptyImage:hover
+        {
+            	
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3FC7FF,endColorstr=#3FC7FF);
+	zoom:1;
+	
+	background:rgb(63,199,255);
+	background:rgba(63,199,255, 0.5);
+	
+
+        }
+
+
+
+    </style>
+</head>
+<body style="font-size: 20px; background-color: #ECF0F1;">
+	<div class="infoPopUp" id="infoPopUp" ></div>
+	<div class="popUp" id="popUp">
+		<a id="closeButton" class="closeButtonPopUp" href="#"></a>
+		<table class="popUpTable">
+			<tbody>
+				<tr>
+					<td>
+						<img alt="Cover" src="./../flash/pages/page0001_s.png" class="popUpCover" />
+					</td>
+					<td>
+						<h4 id="popupTitle">&nbsp;</h4>
+						<p id="popupText"></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="toolbar">
+		<ul class="zoomContainer" id="zoomContainer">
+			<li>
+				<a class="zoomInButton" id="zoomIn" href="#">
+					<img src="styles/zoomIn.png" alt="Zoom In" />
+				</a>
+			</li>
+			<li>
+				<a class="zoomOutButton" id="zoomOut" href="#">
+					<img src="styles/zoomOut.png" alt="Zoom Out" />
+				</a>
+			</li>
+		</ul>
+
+		
+		
+		<div class="toolbarButtons">
+		    
+				<ul class="downloadButton toolbarLink">
+					<li class="iconLi">
+						<img class="iconToolbar" src="styles/save.png" alt="Downloads" />
+                        <img class="iconToolbar mobile" src="styles/save-mobile.png" alt="Downloads" />
+					</li>
+						<li id="downloadPdf" class="downloadSubMenu">
+							<a id="downloadPdfLink" href="./../common/downloads/publication.pdf" target="_blank"></a>
+						</li>
+										                    					
+				</ul>
+		</div>
+
+		
+		
+
+			<a id="pagePrevArrow" class="toLeftButton toolbarLink internalLink" href="./page-42-43.html"><img class="iconToolbar" src="styles/previous.png" alt="Previous Page" /></a>
+        
+		<span class="pager"><span id="pageLabel"></span>&nbsp;44-45 / 116</span>
+
+				<a id="nextPageArrow" class="toRightButton toolbarLink internalLink" href="./page-46-47.html"><img class="iconToolbar" src="styles/next.png" alt="Next Page" /></a>
+
+		<ul class="sharingContainer">
+			<li>
+				<a class="facebookShare" id="facebookShare" href="#" target="_blank">
+                    <img src="styles/facebook_32.png" alt="Share on Facebook" />
+					<span id="facebookShareText" class="shareTitleMenu"></span>
+				</a>
+			</li>
+			<li>
+                <a class="twitterShare" id="twitterShare" href="#" target="_blank">
+                    <img src="styles/twitter_32.png" alt="Tweet" />
+                    <span id="twitterShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="linkedinShare" id="linkedinShare" href="#" target="_blank">
+                    <img src="styles/linkedin_32.png" alt="Share on LinkedIn" />
+                    <span id="linkedinShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="tumblrShare" id="tumblrShare" href="#" target="_blank">
+                    <img src="styles/tumblr_32.png" alt="Share on Tumblr" />
+                    <span id="tumblrShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="googleShare" id="googleShare" href="#" target="_blank">
+                    <img src="styles/google_32.png" alt="Share on Google+" />
+                    <span id="googleShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="mailShare" id="mailShare" href="#" target="_blank">
+                    <img src="styles/email_32.png" alt="E-mail" />
+                    <span id="mailShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="vkShare" id="vkShare" href="#" target="_blank">
+                    <img src="styles/vk_32.png" alt="Share on VK" />
+                    <span id="vkShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+		</ul>
+
+
+		<div class="verContainer" id="verContainer">
+			<span id="basicVersionTitle" class="basicInfoTitle"></span>
+			<a id="infoButton" class="toolbarLink info" href="#"><img class="iconInfo" src="styles/info.png" alt="Information" /></a>
+
+		</div>
+	</div>
+
+	<div class="mainFrame" id="mainFrame">
+
+		<a class="mobileMenuButton" id="mobileMenuButton">
+            <img src="styles/mobile-menu.png" alt="Show Menu" style="" />
+		</a>
+
+		<div class="mobileNav">
+					<a class="toLeftButton toolbarLink internalLink" href="./page-42-43.html"><img class="iconToolbar" src="styles/prev-mob.png" alt="Previous Page" /></a>
+			<span class="pager">44-45 / 116</span>
+					<a class="toRightButton toolbarLink internalLink" href="./page-46-47.html"><img class="iconToolbar" src="styles/next-mob.png" alt="Next Page" /></a>
+		</div>
+
+		<div id="pageContainer" class="pageContainer" style="width: 1296px; height: 864px; margin: 40px 0 0 -648px; background-color:#FFFFFF;">
+			<img alt="Page Background" src="./../common/page-substrates/page0023.jpg" style="width: 100%; height: 100%;">
+
+
+						<p class="textItem testString" style="top:93.750000%;left:94.598765%;width:0.848765%;height:1.504630%;font-size:0.500000em;color:#221F20;font-family:Abel;">
+							45
+						</p>
+						<p class="textItem " style="top:93.750000%;left:4.475309%;width:0.848765%;height:1.504630%;font-size:0.500000em;color:#221F20;font-family:Abel;">
+							44
+						</p>
+						<p class="textItem testString" style="top:5.671296%;left:4.629630%;width:4.938272%;height:1.620370%;font-size:0.600000em;color:#221F20;font-family:Fashion Didot;">
+							SOUTH CHINA ELITE
+						</p>
+						<p class="textItem testString" style="top:22.106481%;left:7.638889%;width:18.132716%;height:1.736111%;font-size:0.600000em;color:#221F20;font-family:Droid Serif;">
+							<b>Why this new and emerging interest in</b>
+						</p>
+						<p class="textItem " style="top:23.726852%;left:7.638889%;width:9.027778%;height:1.736111%;font-size:0.600000em;color:#221F20;font-family:Droid Serif;">
+							<b>ethical leadership?</b>
+						</p>
+						<p class="textItem testString" style="top:27.199074%;left:9.182099%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							This is how I look at it. As we are intently watching
+						</p>
+						<p class="textItem " style="top:28.819444%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							the global markets, both Fortune 500 and Inc 500
+						</p>
+						<p class="textItem " style="top:30.439815%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							companies continue to look at China and India as the
+						</p>
+						<p class="textItem " style="top:32.060185%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							key major mega markets where opportunities for
+						</p>
+						<p class="textItem " style="top:33.680556%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							market expansion are vibrantly increasing in different
+						</p>
+						<p class="textItem " style="top:35.300926%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							corners. On the other hand, Chinese businesses are also
+						</p>
+						<p class="textItem " style="top:36.921296%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							eyeing more aggressively companies overseas in North
+						</p>
+						<p class="textItem " style="top:38.541667%;left:7.638889%;width:7.021605%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							America and Europe.
+						</p>
+						<p class="textItem " style="top:40.162037%;left:9.182099%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Looking back, while hospitality is still a key
+						</p>
+						<p class="textItem " style="top:41.782407%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							component of doing business in Asia, the historical way
+						</p>
+						<p class="textItem " style="top:43.402778%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							of doing business has changed from the past where
+						</p>
+						<p class="textItem " style="top:45.023148%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							companies relied heavily upon relationships (Guanxi)
+						</p>
+						<p class="textItem " style="top:46.643519%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							and facilitation where budgets appear to be modest.
+						</p>
+						<p class="textItem " style="top:48.263889%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Moving forward, the focus has shifted to more stern
+						</p>
+						<p class="textItem " style="top:49.884259%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							corporate transparency requirements, dual listings, more
+						</p>
+						<p class="textItem " style="top:51.504630%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							special audits and independent overseers – thus stirring
+						</p>
+						<p class="textItem " style="top:53.125000%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							up a sharp demand for more ethical leadership not only
+						</p>
+						<p class="textItem " style="top:54.745370%;left:7.638889%;width:16.898148%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							in China but also in the global business environment.
+						</p>
+						<p class="textItem " style="top:56.481481%;left:9.182099%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							With recent notable leadership practice challenges
+						</p>
+						<p class="textItem " style="top:58.101852%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							in Malaysia, the Philippines, South Korea, Brazil and
+						</p>
+						<p class="textItem " style="top:59.722222%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Taiwan, it’s becoming more evident that both country
+						</p>
+						<p class="textItem " style="top:61.342593%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							and corporate leadership must become more principled
+						</p>
+						<p class="textItem " style="top:62.962963%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							and ethical if business sustainability and change are
+						</p>
+						<p class="textItem " style="top:64.583333%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							to be achieved.  The recent cases of Volkswagen and
+						</p>
+						<p class="textItem " style="top:66.203704%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Mitsubishi erring in corporate and consumer disclosures
+						</p>
+						<p class="textItem " style="top:67.824074%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							clearly reveals that the challenge has pervaded not only
+						</p>
+						<p class="textItem " style="top:69.444444%;left:7.638889%;width:12.885802%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							in China but in the global arena as well.
+						</p>
+						<p class="textItem " style="top:72.337963%;left:7.638889%;width:16.203704%;height:1.736111%;font-size:0.600000em;color:#221F20;font-family:Droid Serif;">
+							<b>How will these affect management</b>
+						</p>
+						<p class="textItem " style="top:73.958333%;left:7.638889%;width:5.246914%;height:1.736111%;font-size:0.600000em;color:#221F20;font-family:Droid Serif;">
+							<b>education?</b>
+						</p>
+						<p class="textItem " style="top:77.430556%;left:9.182099%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Foremost, let’s understand that China has made
+						</p>
+						<p class="textItem " style="top:79.050926%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							education a national priority. Almost every week a new
+						</p>
+						<p class="textItem " style="top:80.671296%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							university opens its doors in China. Equally sobering
+						</p>
+						<p class="textItem " style="top:82.291667%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							and compelling is that at least 40% of the world’s
+						</p>
+						<p class="textItem " style="top:83.912037%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							engineering and technical graduates are minted each
+						</p>
+						<p class="textItem " style="top:85.532407%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							year in China and by 2020 it is expected to be around
+						</p>
+						<p class="textItem " style="top:87.152778%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							60%. The implication of such significant upsurge of
+						</p>
+						<p class="textItem " style="top:88.773148%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							graduates is so compelling given the fact that the
+						</p>
+						<p class="textItem " style="top:90.393519%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							number of patents filed each year on the mainland has
+						</p>
+						<p class="textItem " style="top:7.291667%;left:18.209877%;width:16.820988%;height:4.166667%;font-size:1.400000em;color:#88292C;font-family:Abel;">
+							On ethical leadership
+						</p>
+						<p class="textItem testString" style="top:11.921296%;left:15.972222%;width:21.296296%;height:3.356481%;font-size:1.150000em;color:#88292C;font-family:Microsoft Jheng Hei Regular;">
+							論合乎道德倫理的領導管理
+						</p>
+						<p class="textItem " style="top:22.453704%;left:27.469136%;width:17.206790%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							been growing dramatically over the last eight years.
+						</p>
+						<p class="textItem " style="top:24.074074%;left:29.012346%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							More than ever, Management and Business degree
+						</p>
+						<p class="textItem " style="top:25.694444%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							programs must be relevant and practical, since the
+						</p>
+						<p class="textItem " style="top:27.314815%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							library of congress now almost doubles itself every four
+						</p>
+						<p class="textItem " style="top:28.935185%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							years. Towards that end, it’s even more important that
+						</p>
+						<p class="textItem " style="top:30.555556%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							graduate business education must be taught by leading
+						</p>
+						<p class="textItem " style="top:32.175926%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							practitioners together with experienced faculty. In
+						</p>
+						<p class="textItem " style="top:33.796296%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							recent years, many EMBA programs have come under
+						</p>
+						<p class="textItem " style="top:35.416667%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							heavy criticism as many participants have been
+						</p>
+						<p class="textItem " style="top:37.037037%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							enrolling for the purpose of networking and for future
+						</p>
+						<p class="textItem " style="top:38.657407%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							access. Needless to say, this is unfair, if not awkward.
+						</p>
+						<p class="textItem " style="top:40.277778%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							This motive has not considered the many benefits
+						</p>
+						<p class="textItem " style="top:41.898148%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							participants may have enjoyed and that they may
+						</p>
+						<p class="textItem " style="top:43.518519%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							have eventually applied whatever significant learning
+						</p>
+						<p class="textItem " style="top:45.138889%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							they would gain in building business development
+						</p>
+						<p class="textItem " style="top:46.759259%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							initiatives and facilitating business from Hong Kong to
+						</p>
+						<p class="textItem " style="top:48.379630%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Shanghai to Singapore along with many other key cities
+						</p>
+						<p class="textItem " style="top:50.000000%;left:27.469136%;width:4.475309%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							in the region.
+						</p>
+						<p class="textItem " style="top:51.620370%;left:29.012346%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Thus, that leading EMBA and DBA programs need
+						</p>
+						<p class="textItem " style="top:53.240741%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							to be responsive to market needs and conditions has
+						</p>
+						<p class="textItem " style="top:54.861111%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							become more of a compelling necessity than a mere
+						</p>
+						<p class="textItem " style="top:56.481481%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							option in management education. As the demands
+						</p>
+						<p class="textItem " style="top:58.101852%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							grow, emerging special programs such as Conflict
+						</p>
+						<p class="textItem " style="top:59.722222%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Management, Business and Behaviour, Global Trends
+						</p>
+						<p class="textItem " style="top:61.342593%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							and Social Network Theory will definitely emerge. As
+						</p>
+						<p class="textItem " style="top:62.962963%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							such, learning for all of us has no other option than to
+						</p>
+						<p class="textItem " style="top:64.583333%;left:27.469136%;width:8.564815%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							be perpetual and lifelong.
+						</p>
+						<p class="textItem " style="top:66.203704%;left:29.012346%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Leadership education obviously is not effective
+						</p>
+						<p class="textItem " style="top:67.824074%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							if attended once every 20 years. Study of leadership
+						</p>
+						<p class="textItem " style="top:69.444444%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							should not be restricted to a discussion about the latest
+						</p>
+						<p class="textItem " style="top:71.064815%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							fads and models but must go deeper into the anatomy
+						</p>
+						<p class="textItem " style="top:72.685185%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							of leadership coupled with a profound understanding
+						</p>
+						<p class="textItem " style="top:74.305556%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							of Behavioural Science. All too often, leaders today are
+						</p>
+						<p class="textItem " style="top:75.925926%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							promoted within corporations not because of their
+						</p>
+						<p class="textItem " style="top:77.546296%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							innovative or motivational abilities and skills but
+						</p>
+						<p class="textItem " style="top:79.166667%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							because of their politically savvy and manoeuvring. To
+						</p>
+						<p class="textItem " style="top:80.787037%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							answer the question, these last few years the impact
+						</p>
+						<p class="textItem " style="top:82.407407%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							on teaching has in fact been dramatic with more than
+						</p>
+						<p class="textItem " style="top:84.027778%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							50,000 published theories released. In the present
+						</p>
+						<p class="textItem " style="top:85.648148%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							teaching erawhere competition is getting tougher every
+						</p>
+						<p class="textItem " style="top:87.268519%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							day and there are unavoidable economic changes,
+						</p>
+						<p class="textItem " style="top:88.888889%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							education is imperative. Moreover, what strikes the
+						</p>
+						<p class="textItem " style="top:90.509259%;left:27.469136%;width:17.746914%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							balance between chaos and functioning is leadership.
+						</p>
+						<p class="textItem testString" style="top:60.763889%;left:54.320988%;width:18.132716%;height:1.851852%;font-size:0.600000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							人們為何會對合乎道德倫理的領導管理這新
+						</p>
+						<p class="textItem " style="top:62.384259%;left:54.320988%;width:5.555556%;height:1.851852%;font-size:0.600000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							思維感興趣？
+						</p>
+						<p class="textItem testString" style="top:66.087963%;left:55.787037%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							我的個人看法是，我們關注全球市場發展的同時，財
+						</p>
+						<p class="textItem " style="top:67.708333%;left:54.320988%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							富500強及Inc 500強企業均視中國和印度兩大市場為商務擴
+						</p>
+						<p class="textItem " style="top:69.328704%;left:54.320988%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							展的重點，並大力在各領域進行投資。另一方面，中國企
+						</p>
+						<p class="textItem " style="top:70.949074%;left:54.320988%;width:15.354938%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							業亦更積極地瞄準並投資北美及歐洲等地的企業。
+						</p>
+						<p class="textItem " style="top:72.569444%;left:55.787037%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							雖然人脈仍是在亞洲營商的重要元素，但企業過往以
+						</p>
+						<p class="textItem " style="top:74.189815%;left:54.320988%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							關係為主導的方式——那是從前預算額有限的年代——已
+						</p>
+						<p class="textItem " style="top:75.810185%;left:54.320988%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							經起了變化。展望將來，重點將轉移至更嚴格的企業透明
+						</p>
+						<p class="textItem " style="top:77.430556%;left:54.320988%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							度要求、兩地上市、專業審計和獨立監督等，意味在中國
+						</p>
+						<p class="textItem " style="top:79.050926%;left:54.320988%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							乃至全球商業生態中，合乎道德倫理的領導管理將逐漸變
+						</p>
+						<p class="textItem " style="top:80.671296%;left:54.320988%;width:2.854938%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							成常態。
+						</p>
+						<p class="textItem " style="top:82.291667%;left:55.787037%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							馬來西亞、菲律賓、南韓、巴西及台灣最近均出現針
+						</p>
+						<p class="textItem " style="top:83.912037%;left:54.320988%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							對政治領導人的挑戰。這證明要實現企業可持續發展和變
+						</p>
+						<p class="textItem " style="top:85.532407%;left:54.320988%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							革，國家及企業領導管理均須朝著合乎道德倫理的方向發
+						</p>
+						<p class="textItem " style="top:87.152778%;left:54.320988%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							展。大眾和三菱等企業最近備受醜聞困擾，顯示問題不僅
+						</p>
+						<p class="textItem " style="top:88.773148%;left:54.320988%;width:11.882716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							存在於中國，亦存在於全球其他地區。
+						</p>
+						<p class="textItem " style="top:60.763889%;left:74.228395%;width:12.962963%;height:1.851852%;font-size:0.600000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							這對管理教育將構成甚麼影響？
+						</p>
+						<p class="textItem " style="top:64.467593%;left:75.617284%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							首先，我們要知道，中國將教育視為國策的重中之重。
+						</p>
+						<p class="textItem " style="top:66.087963%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							中國幾乎每個星期就迎來一所新的大學，而同樣引人注目的
+						</p>
+						<p class="textItem " style="top:67.708333%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							是，全球至少40%的工程及技術系畢業生，都是中國培育的；
+						</p>
+						<p class="textItem " style="top:69.328704%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							到了2020年，比例將進一步上升至近60%。畢業生人數激增的
+						</p>
+						<p class="textItem " style="top:70.949074%;left:74.228395%;width:17.052469%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							同時，最近8年間在中國提交的專利申請數目亦大幅上升。
+						</p>
+						<p class="textItem " style="top:72.569444%;left:75.617284%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							現時，國會圖書館的藏書數量，每隔4年就翻倍，而商業
+						</p>
+						<p class="textItem " style="top:74.189815%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							管理等課程的相關性與實際性，就更是必須。更重要的是，學
+						</p>
+						<p class="textItem " style="top:75.810185%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							位後商業管理課程須由有經驗的實踐型專家任教。近年來，不
+						</p>
+						<p class="textItem " style="top:77.430556%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							少高級工商管理碩士課程因淪為學員擴展網絡的台階，而飽受
+						</p>
+						<p class="textItem " style="top:79.050926%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							批評。這無疑是不公平的，也是令人尷尬的——這是忽略了
+						</p>
+						<p class="textItem " style="top:80.671296%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							學員獲得的不少益處。學員最終可能會學以致用，在香港、上
+						</p>
+						<p class="textItem " style="top:82.291667%;left:74.228395%;width:15.432099%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							海、新加坡乃至本地區其他主要城市促進商務發展。
+						</p>
+						<p class="textItem " style="top:83.912037%;left:75.617284%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							因此，頂尖的高級工商管理碩士課程及工商管理博士課
+						</p>
+						<p class="textItem " style="top:85.532407%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							程，需迎合市場環境及需要。對管理教育而言，這並不是選
+						</p>
+						<p class="textItem " style="top:87.152778%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							擇，而是有迫切的需要。隨著需求增長，衝突管理、商業與行
+						</p>
+						<p class="textItem " style="top:88.773148%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							為、全球趨勢及社會網絡理論等新興專業課程將應運而生。對
+						</p>
+						<p class="textItem " style="top:90.393519%;left:74.228395%;width:16.049383%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							所有人而言，這意味著除終身學習外，並無其它選擇。
+						</p>
+		</div>
+
+		<div class="footer">
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-1.html">1</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-34-35.html">34-35</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-36-37.html">36-37</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-38-39.html">38-39</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-40-41.html">40-41</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-42-43.html">42-43</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink currPage" href="./page-44-45.html">44-45</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-46-47.html">46-47</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-48-49.html">48-49</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-50-51.html">50-51</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-52-53.html">52-53</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-54-55.html">54-55</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-56-57.html">56-57</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-116.html">116</a>
+
+				<a style="color:#3E3E43;" class="footerLink" href="./flipbook.html" target="_blank">
+					<span id="poweredBy"></span>&nbsp;FlippingBook
+				</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+	        if (typeof BASIC_PAGE === 'undefined' && typeof BasicPage !== 'undefined' ){
+	            BASIC_PAGE = new BasicPage();
+	        }
+	        GALLERY_CONTENT = {};
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+

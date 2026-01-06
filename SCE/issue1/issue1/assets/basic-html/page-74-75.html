@@ -1,0 +1,602 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, minimum-scale=0.5, user-scalable=yes, maximum-scale=2.0, target-densitydpi=device-dpi" />
+
+    <title>South China Elite #1</title>
+
+    <meta charset="utf-8">
+
+    <meta name="robots" content="all"/>
+
+	<link href="./styles/style.css" type="text/css" rel="stylesheet" />
+	<link href="./styles/mobile.css" type="text/css" rel="stylesheet" />
+	
+    <script type="text/javascript">
+    CURRENT_PAGE = "74-75";
+    MAIN_PAGE     = "index.html";
+    FILES_FOLDER  = "issue1";
+    HTML5_PUBLICATION = true;
+
+
+    
+    </script>
+	
+	
+	<script src="./javascript/init.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        STATIC_FOLDER = ".";
+        DYNAMIC_FOLDER = "./..";
+
+        PUBLICATION_NAME = "South China Elite #1";
+
+        CURRENT_VERSION = "2.8.16";
+
+        LANGS = ['en','ar','de','es','fi','fr','he','it','ja','nl','no','pl','pt','ru','sv','tr','zh'];
+        PUBLICATION_TYPE = "catalog";
+        VIDEOS_INFO = {};
+
+    var main = function () {
+
+        loadScript('./javascript/localizator.js',function(){});
+
+        if (document.domain.indexOf('publ.com') != -1 || document.domain.indexOf('cld.bz') != -1 || document.domain.indexOf('cld.mobi') != -1 || document.domain.indexOf('cld.local') != -1) {
+            var staticServer = window.location.protocol === 'https:' ? 'https://d2ayihadozxfln.cloudfront.net' : ('http://static.' + window.location.hostname);
+            var url = staticServer + "/publication/" + CURRENT_VERSION + "/basic/cloud.js";
+            loadScript(url,function(){});
+        }
+
+    }
+
+    if (!!window.addEventListener) {
+        window.addEventListener('load', main);
+    } else {
+        window.attachEvent('onload', main);
+    }
+
+    function loadScript(url, callback){
+        var head = document.getElementsByTagName("head")[0];
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = url;
+        head.appendChild(script);
+        if (script.readyState){
+            script.onreadystatechange = function(){
+                if (script.readyState == "loaded" ||
+						script.readyState == "complete"){
+                    script.onreadystatechange = null;
+                    callback();
+                }
+            };
+        } else {
+            script.onload = function(){
+                callback();
+            };
+        }
+    }
+    </script>
+
+
+    <style type="text/css">
+        .areaLinkItem:hover, .contentItemHover:hover, .emptyImage:hover
+        {
+            	
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3FC7FF,endColorstr=#3FC7FF);
+	zoom:1;
+	
+	background:rgb(63,199,255);
+	background:rgba(63,199,255, 0.5);
+	
+
+        }
+
+
+
+    </style>
+</head>
+<body style="font-size: 20px; background-color: #ECF0F1;">
+	<div class="infoPopUp" id="infoPopUp" ></div>
+	<div class="popUp" id="popUp">
+		<a id="closeButton" class="closeButtonPopUp" href="#"></a>
+		<table class="popUpTable">
+			<tbody>
+				<tr>
+					<td>
+						<img alt="Cover" src="./../flash/pages/page0001_s.png" class="popUpCover" />
+					</td>
+					<td>
+						<h4 id="popupTitle">&nbsp;</h4>
+						<p id="popupText"></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="toolbar">
+		<ul class="zoomContainer" id="zoomContainer">
+			<li>
+				<a class="zoomInButton" id="zoomIn" href="#">
+					<img src="styles/zoomIn.png" alt="Zoom In" />
+				</a>
+			</li>
+			<li>
+				<a class="zoomOutButton" id="zoomOut" href="#">
+					<img src="styles/zoomOut.png" alt="Zoom Out" />
+				</a>
+			</li>
+		</ul>
+
+		
+		
+		<div class="toolbarButtons">
+		    
+				<ul class="downloadButton toolbarLink">
+					<li class="iconLi">
+						<img class="iconToolbar" src="styles/save.png" alt="Downloads" />
+                        <img class="iconToolbar mobile" src="styles/save-mobile.png" alt="Downloads" />
+					</li>
+						<li id="downloadPdf" class="downloadSubMenu">
+							<a id="downloadPdfLink" href="./../common/downloads/publication.pdf" target="_blank"></a>
+						</li>
+										                    					
+				</ul>
+		</div>
+
+		
+		
+
+			<a id="pagePrevArrow" class="toLeftButton toolbarLink internalLink" href="./page-72-73.html"><img class="iconToolbar" src="styles/previous.png" alt="Previous Page" /></a>
+        
+		<span class="pager"><span id="pageLabel"></span>&nbsp;74-75 / 116</span>
+
+				<a id="nextPageArrow" class="toRightButton toolbarLink internalLink" href="./page-76-77.html"><img class="iconToolbar" src="styles/next.png" alt="Next Page" /></a>
+
+		<ul class="sharingContainer">
+			<li>
+				<a class="facebookShare" id="facebookShare" href="#" target="_blank">
+                    <img src="styles/facebook_32.png" alt="Share on Facebook" />
+					<span id="facebookShareText" class="shareTitleMenu"></span>
+				</a>
+			</li>
+			<li>
+                <a class="twitterShare" id="twitterShare" href="#" target="_blank">
+                    <img src="styles/twitter_32.png" alt="Tweet" />
+                    <span id="twitterShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="linkedinShare" id="linkedinShare" href="#" target="_blank">
+                    <img src="styles/linkedin_32.png" alt="Share on LinkedIn" />
+                    <span id="linkedinShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="tumblrShare" id="tumblrShare" href="#" target="_blank">
+                    <img src="styles/tumblr_32.png" alt="Share on Tumblr" />
+                    <span id="tumblrShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="googleShare" id="googleShare" href="#" target="_blank">
+                    <img src="styles/google_32.png" alt="Share on Google+" />
+                    <span id="googleShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="mailShare" id="mailShare" href="#" target="_blank">
+                    <img src="styles/email_32.png" alt="E-mail" />
+                    <span id="mailShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="vkShare" id="vkShare" href="#" target="_blank">
+                    <img src="styles/vk_32.png" alt="Share on VK" />
+                    <span id="vkShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+		</ul>
+
+
+		<div class="verContainer" id="verContainer">
+			<span id="basicVersionTitle" class="basicInfoTitle"></span>
+			<a id="infoButton" class="toolbarLink info" href="#"><img class="iconInfo" src="styles/info.png" alt="Information" /></a>
+
+		</div>
+	</div>
+
+	<div class="mainFrame" id="mainFrame">
+
+		<a class="mobileMenuButton" id="mobileMenuButton">
+            <img src="styles/mobile-menu.png" alt="Show Menu" style="" />
+		</a>
+
+		<div class="mobileNav">
+					<a class="toLeftButton toolbarLink internalLink" href="./page-72-73.html"><img class="iconToolbar" src="styles/prev-mob.png" alt="Previous Page" /></a>
+			<span class="pager">74-75 / 116</span>
+					<a class="toRightButton toolbarLink internalLink" href="./page-76-77.html"><img class="iconToolbar" src="styles/next-mob.png" alt="Next Page" /></a>
+		</div>
+
+		<div id="pageContainer" class="pageContainer" style="width: 1296px; height: 864px; margin: 40px 0 0 -648px; background-color:#FFFFFF;">
+			<img alt="Page Background" src="./../common/page-substrates/page0038.jpg" style="width: 100%; height: 100%;">
+
+
+						<p class="textItem testString" style="top:93.750000%;left:94.598765%;width:0.848765%;height:1.504630%;font-size:0.500000em;color:#221F20;font-family:Abel;">
+							75
+						</p>
+						<p class="textItem " style="top:93.750000%;left:4.475309%;width:0.848765%;height:1.504630%;font-size:0.500000em;color:#221F20;font-family:Abel;">
+							74
+						</p>
+						<p class="textItem testString" style="top:5.671296%;left:4.629630%;width:4.938272%;height:1.620370%;font-size:0.600000em;color:#221F20;font-family:Fashion Didot;">
+							SOUTH CHINA ELITE
+						</p>
+						<p class="textItem testString" style="top:20.370370%;left:28.780864%;width:16.820988%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							美國全國經濟研究所已確認上一個高峰及低谷分別是
+						</p>
+						<p class="textItem " style="top:21.990741%;left:27.469136%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							2007年12月及2009年6月。根據表3統計總結，我們可以上一個
+						</p>
+						<p class="textItem " style="top:23.611111%;left:27.469136%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							高峰及低谷、中位數、最高四分之一及最高值為基礎，預測
+						</p>
+						<p class="textItem " style="top:25.231481%;left:27.469136%;width:4.089506%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							下一個高峰。
+						</p>
+						<p class="textItem " style="top:26.851852%;left:28.780864%;width:16.820988%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							根據表4所列結果顯示，美國經濟顯然已通過「最高四分
+						</p>
+						<p class="textItem " style="top:28.472222%;left:27.469136%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							之一」，並開始進入「最高值」。這意味著高峰即將來臨，
+						</p>
+						<p class="textItem " style="top:30.092593%;left:27.469136%;width:14.891975%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							緊隨其後的是衰退。此時，企業管理應立即審視：
+						</p>
+						<p class="textItem " style="top:33.333333%;left:27.469136%;width:9.413580%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							(a) 這是否擴展業務的好時機？
+						</p>
+						<p class="textItem " style="top:34.953704%;left:27.469136%;width:10.802469%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							(b) 企業應否收緊客戶的信貸額度？
+						</p>
+						<p class="textItem " style="top:36.574074%;left:27.469136%;width:17.515432%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							(c) 假若供應商終止供應鏈信貸額度，企業能否繼續生存？
+						</p>
+						<p class="textItem " style="top:38.194444%;left:27.469136%;width:11.496914%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							(d) 企業是否過分依賴銀行短期貸款？
+						</p>
+						<p class="textItem " style="top:39.814815%;left:27.469136%;width:16.820988%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							(e) 企業是否擁有足夠的現金及流動資產應對經濟衰退？
+						</p>
+						<p class="textItem " style="top:41.435185%;left:27.469136%;width:10.108025%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							(f) 企業應否準備更多長期資金？
+						</p>
+						<p class="textItem " style="top:44.675926%;left:28.780864%;width:16.820988%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							美國全國經濟研究所的經濟週期分析，主要聚焦於美
+						</p>
+						<p class="textItem " style="top:46.296296%;left:27.469136%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							國。這個全球最大經濟體的繁榮及蕭條週期，會大大影響美
+						</p>
+						<p class="textItem " style="top:47.916667%;left:27.469136%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							國入口及美國企業的全球策略。其它經濟體——尤其是以出
+						</p>
+						<p class="textItem " style="top:49.537037%;left:27.469136%;width:17.592593%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							口為主的國家以及新興國家——將受到美國經濟蕭條影響。
+						</p>
+						<p class="textItem testString" style="top:20.138889%;left:9.182099%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							NBER has confirmed the last peak as being
+						</p>
+						<p class="textItem " style="top:21.759259%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							December 2007 and the last trough as June 2009. With
+						</p>
+						<p class="textItem " style="top:23.379630%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							the summary statistics in Table 3, we can predict the next
+						</p>
+						<p class="textItem " style="top:25.000000%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							peak. Projections can be estimated with the last peak
+						</p>
+						<p class="textItem " style="top:26.620370%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							and trough plus medium, upper quartile and maximum.
+						</p>
+						<p class="textItem " style="top:28.240741%;left:9.182099%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Table 4 shows the results. It is obvious that the US
+						</p>
+						<p class="textItem " style="top:29.861111%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							economy has just passed the dates of “Upper Quartile”
+						</p>
+						<p class="textItem " style="top:31.481481%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							and is moving towards the “Maximum”.   This means the
+						</p>
+						<p class="textItem " style="top:33.101852%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							peak will arrive soon and recession will follow. Business
+						</p>
+						<p class="textItem " style="top:34.722222%;left:7.638889%;width:15.663580%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							executives should immediately ask themselves:
+						</p>
+						<p class="textItem " style="top:37.962963%;left:7.638889%;width:14.429012%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							(a) Is it a good time to expand the business?
+						</p>
+						<p class="textItem " style="top:39.583333%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							(b) Should the firm scale down its credit lines offered
+						</p>
+						<p class="textItem " style="top:41.203704%;left:7.638889%;width:4.783951%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							on customers?
+						</p>
+						<p class="textItem " style="top:42.824074%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							(c) Will the firm be able to survive if suppliers stop their
+						</p>
+						<p class="textItem " style="top:44.444444%;left:7.638889%;width:6.790123%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							supply-chain credit?
+						</p>
+						<p class="textItem " style="top:46.064815%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							(d) Does the firm rely too heavily on short-term bank
+						</p>
+						<p class="textItem " style="top:47.685185%;left:7.638889%;width:2.160494%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							loans?
+						</p>
+						<p class="textItem " style="top:49.305556%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							(e) Does the firm have sufficient cash and liquid assets
+						</p>
+						<p class="textItem " style="top:50.925926%;left:7.638889%;width:11.496914%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							to deal with economic downturns?
+						</p>
+						<p class="textItem " style="top:52.546296%;left:7.638889%;width:16.743827%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							(f) Should the firm arrange more long-term funds?
+						</p>
+						<p class="textItem " style="top:55.787037%;left:9.182099%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							NBER cycle analysis focuses on the US which
+						</p>
+						<p class="textItem " style="top:57.407407%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							remains the largest economy in the world. Its economic
+						</p>
+						<p class="textItem " style="top:59.027778%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							booms and busts will strongly affect its imports and the
+						</p>
+						<p class="textItem " style="top:60.648148%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							global strategies of US companies. Other economies,
+						</p>
+						<p class="textItem " style="top:62.268519%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							especially those export-oriented and emerging economies,
+						</p>
+						<p class="textItem " style="top:63.888889%;left:7.638889%;width:11.805556%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							will suffer from US economic busts.
+						</p>
+						<p class="textItem " style="top:7.407407%;left:13.657407%;width:25.925926%;height:4.166667%;font-size:1.400000em;color:#88292C;font-family:Abel;">
+							The next cycle peak: 2017-2019
+						</p>
+						<p class="textItem testString" style="top:12.037037%;left:12.731481%;width:27.777778%;height:3.356481%;font-size:1.150000em;color:#88292C;font-family:Microsoft Jheng Hei Regular;">
+							下一個經濟高峰：2017年至2019年
+						</p>
+						<p class="textItem " style="top:16.898148%;left:70.833333%;width:2.700617%;height:2.314815%;font-size:0.750000em;color:#FFFFFF;font-family:Abel;">
+							TABLE
+						</p>
+						<p class="textItem testString" style="top:16.898148%;left:73.765432%;width:1.157407%;height:2.199074%;font-size:0.750000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							表
+						</p>
+						<p class="textItem " style="top:16.898148%;left:75.154321%;width:0.617284%;height:2.314815%;font-size:0.750000em;color:#FFFFFF;font-family:Abel;">
+							3
+						</p>
+						<p class="textItem " style="top:20.486111%;left:54.320988%;width:12.037037%;height:1.851852%;font-size:0.600000em;color:#221F20;font-family:Abel;">
+							DURATION OF AN ECONOMIC CYCLE
+						</p>
+						<p class="textItem " style="top:22.685185%;left:54.320988%;width:7.638889%;height:1.620370%;font-size:0.550000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							經濟週期的持續時間
+						</p>
+						<p class="textItem " style="top:36.921296%;left:58.796296%;width:2.083333%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							MEDIAN
+						</p>
+						<p class="textItem " style="top:38.541667%;left:58.796296%;width:2.083333%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							中位數
+						</p>
+						<p class="textItem " style="top:45.023148%;left:58.796296%;width:4.475309%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							UPPER QUARTILE
+						</p>
+						<p class="textItem " style="top:46.643519%;left:58.796296%;width:4.166667%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							最高四分之一
+						</p>
+						<p class="textItem " style="top:53.356481%;left:58.796296%;width:2.546296%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							MAXIMUM
+						</p>
+						<p class="textItem " style="top:54.976852%;left:58.796296%;width:2.083333%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							最高值
+						</p>
+						<p class="textItem " style="top:61.458333%;left:58.796296%;width:2.083333%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							MEDIAN
+						</p>
+						<p class="textItem " style="top:63.078704%;left:58.796296%;width:2.083333%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							中位數
+						</p>
+						<p class="textItem " style="top:69.560185%;left:58.796296%;width:4.475309%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							UPPER QUARTILE
+						</p>
+						<p class="textItem " style="top:71.180556%;left:58.796296%;width:4.166667%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							最高四分之一
+						</p>
+						<p class="textItem " style="top:77.893519%;left:58.796296%;width:2.546296%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							MAXIMUM
+						</p>
+						<p class="textItem " style="top:79.513889%;left:58.796296%;width:2.083333%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							最高值
+						</p>
+						<p class="textItem " style="top:54.745370%;left:55.169753%;width:10.570988%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							CYCLE DURATION AFTER 1950 (MONTHS)
+						</p>
+						<p class="textItem " style="top:54.282407%;left:56.250000%;width:10.030864%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							1950年後之週期持續時間（月）
+						</p>
+						<p class="textItem " style="top:79.166667%;left:55.169753%;width:10.416667%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							CYCLE DURATION AFTER 1950 (IN YEAR)
+						</p>
+						<p class="textItem " style="top:78.935185%;left:56.250000%;width:10.030864%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							1950年後之週期持續時間（年）
+						</p>
+						<p class="textItem " style="top:27.314815%;left:65.123457%;width:2.391975%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Abel;">
+							Duration,
+						</p>
+						<p class="textItem " style="top:28.935185%;left:65.123457%;width:3.780864%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Abel;">
+							peak to trough
+						</p>
+						<p class="textItem " style="top:30.439815%;left:65.123457%;width:2.777778%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							持續時間
+						</p>
+						<p class="textItem " style="top:32.060185%;left:65.123457%;width:4.706790%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							(從高峰至低谷)
+						</p>
+						<p class="textItem " style="top:37.037037%;left:66.975309%;width:1.234568%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							10.0
+						</p>
+						<p class="textItem " style="top:45.138889%;left:66.975309%;width:1.234568%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							14.8
+						</p>
+						<p class="textItem " style="top:53.240741%;left:66.975309%;width:1.234568%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							18.0
+						</p>
+						<p class="textItem " style="top:61.342593%;left:67.129630%;width:0.848765%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							0.8
+						</p>
+						<p class="textItem " style="top:69.444444%;left:67.129630%;width:0.848765%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							1.2
+						</p>
+						<p class="textItem " style="top:77.546296%;left:67.129630%;width:0.848765%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							1.5
+						</p>
+						<p class="textItem " style="top:27.314815%;left:72.376543%;width:2.391975%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Abel;">
+							Duration,
+						</p>
+						<p class="textItem " style="top:28.935185%;left:72.376543%;width:3.780864%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Abel;">
+							trough to peak
+						</p>
+						<p class="textItem " style="top:30.439815%;left:72.376543%;width:2.777778%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							持續時間
+						</p>
+						<p class="textItem " style="top:32.060185%;left:72.376543%;width:4.706790%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							(從低谷至高峰)
+						</p>
+						<p class="textItem " style="top:37.037037%;left:74.151235%;width:1.234568%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							51.5
+						</p>
+						<p class="textItem " style="top:45.138889%;left:74.151235%;width:1.234568%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							87.3
+						</p>
+						<p class="textItem " style="top:53.240741%;left:73.996914%;width:1.543210%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							120.0
+						</p>
+						<p class="textItem " style="top:61.342593%;left:74.305556%;width:0.848765%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							4.3
+						</p>
+						<p class="textItem " style="top:69.444444%;left:74.305556%;width:0.848765%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							7.3
+						</p>
+						<p class="textItem " style="top:77.546296%;left:74.151235%;width:1.234568%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							10.0
+						</p>
+						<p class="textItem " style="top:27.314815%;left:79.552469%;width:2.391975%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Abel;">
+							Duration,
+						</p>
+						<p class="textItem " style="top:28.935185%;left:79.552469%;width:3.317901%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Abel;">
+							peak to peak
+						</p>
+						<p class="textItem " style="top:30.439815%;left:79.552469%;width:2.777778%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							持續時間
+						</p>
+						<p class="textItem " style="top:32.060185%;left:79.552469%;width:4.706790%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							(從高峰至高峰)
+						</p>
+						<p class="textItem " style="top:37.037037%;left:81.404321%;width:1.157407%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							65.0
+						</p>
+						<p class="textItem " style="top:45.138889%;left:81.172840%;width:1.543210%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							101.3
+						</p>
+						<p class="textItem " style="top:53.240741%;left:81.172840%;width:1.543210%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							128.0
+						</p>
+						<p class="textItem " style="top:61.342593%;left:81.635802%;width:0.694444%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							5.4
+						</p>
+						<p class="textItem " style="top:69.444444%;left:81.635802%;width:0.694444%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							8.4
+						</p>
+						<p class="textItem " style="top:77.546296%;left:81.404321%;width:1.234568%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							10.7
+						</p>
+						<p class="textItem " style="top:27.314815%;left:86.574074%;width:2.391975%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Abel;">
+							Duration,
+						</p>
+						<p class="textItem " style="top:28.935185%;left:86.574074%;width:4.243827%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Abel;">
+							trough to trough
+						</p>
+						<p class="textItem " style="top:30.555556%;left:86.574074%;width:2.777778%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							持續時間
+						</p>
+						<p class="textItem " style="top:32.175926%;left:86.574074%;width:4.706790%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							(從低谷至低谷)
+						</p>
+						<p class="textItem " style="top:37.037037%;left:88.348765%;width:1.157407%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							59.5
+						</p>
+						<p class="textItem " style="top:45.138889%;left:88.348765%;width:1.234568%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							97.8
+						</p>
+						<p class="textItem " style="top:53.240741%;left:88.194444%;width:1.543210%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							128.0
+						</p>
+						<p class="textItem " style="top:61.342593%;left:88.503086%;width:0.848765%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							5.0
+						</p>
+						<p class="textItem " style="top:69.444444%;left:88.503086%;width:0.848765%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							8.1
+						</p>
+						<p class="textItem " style="top:77.546296%;left:88.348765%;width:1.234568%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Abel;">
+							10.7
+						</p>
+						<p class="textItem " style="top:86.111111%;left:54.475309%;width:13.580247%;height:1.273148%;font-size:0.406171em;color:#221F20;font-family:Abel;">
+							NB: These statistics are calculated with the data in Table 2
+						</p>
+						<p class="textItem " style="top:87.847222%;left:54.475309%;width:9.027778%;height:1.273148%;font-size:0.406171em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							註：以上數據根據表2計算得出。
+						</p>
+		</div>
+
+		<div class="footer">
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-1.html">1</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-64-65.html">64-65</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-66-67.html">66-67</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-68-69.html">68-69</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-70-71.html">70-71</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-72-73.html">72-73</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink currPage" href="./page-74-75.html">74-75</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-76-77.html">76-77</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-78-79.html">78-79</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-80-81.html">80-81</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-82-83.html">82-83</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-84-85.html">84-85</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-86-87.html">86-87</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-116.html">116</a>
+
+				<a style="color:#3E3E43;" class="footerLink" href="./flipbook.html" target="_blank">
+					<span id="poweredBy"></span>&nbsp;FlippingBook
+				</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+	        if (typeof BASIC_PAGE === 'undefined' && typeof BasicPage !== 'undefined' ){
+	            BASIC_PAGE = new BasicPage();
+	        }
+	        GALLERY_CONTENT = {};
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+

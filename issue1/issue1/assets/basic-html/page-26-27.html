@@ -1,0 +1,476 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, minimum-scale=0.5, user-scalable=yes, maximum-scale=2.0, target-densitydpi=device-dpi" />
+
+    <title>South China Elite #1</title>
+
+    <meta charset="utf-8">
+
+    <meta name="robots" content="all"/>
+
+	<link href="./styles/style.css" type="text/css" rel="stylesheet" />
+	<link href="./styles/mobile.css" type="text/css" rel="stylesheet" />
+	
+    <script type="text/javascript">
+    CURRENT_PAGE = "26-27";
+    MAIN_PAGE     = "index.html";
+    FILES_FOLDER  = "issue1";
+    HTML5_PUBLICATION = true;
+
+
+    
+    </script>
+	
+	
+	<script src="./javascript/init.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        STATIC_FOLDER = ".";
+        DYNAMIC_FOLDER = "./..";
+
+        PUBLICATION_NAME = "South China Elite #1";
+
+        CURRENT_VERSION = "2.8.16";
+
+        LANGS = ['en','ar','de','es','fi','fr','he','it','ja','nl','no','pl','pt','ru','sv','tr','zh'];
+        PUBLICATION_TYPE = "catalog";
+        VIDEOS_INFO = {};
+
+    var main = function () {
+
+        loadScript('./javascript/localizator.js',function(){});
+
+        if (document.domain.indexOf('publ.com') != -1 || document.domain.indexOf('cld.bz') != -1 || document.domain.indexOf('cld.mobi') != -1 || document.domain.indexOf('cld.local') != -1) {
+            var staticServer = window.location.protocol === 'https:' ? 'https://d2ayihadozxfln.cloudfront.net' : ('http://static.' + window.location.hostname);
+            var url = staticServer + "/publication/" + CURRENT_VERSION + "/basic/cloud.js";
+            loadScript(url,function(){});
+        }
+
+			initAnalytics("basic");
+    }
+
+    if (!!window.addEventListener) {
+        window.addEventListener('load', main);
+    } else {
+        window.attachEvent('onload', main);
+    }
+
+    function loadScript(url, callback){
+        var head = document.getElementsByTagName("head")[0];
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = url;
+        head.appendChild(script);
+        if (script.readyState){
+            script.onreadystatechange = function(){
+                if (script.readyState == "loaded" ||
+						script.readyState == "complete"){
+                    script.onreadystatechange = null;
+                    callback();
+                }
+            };
+        } else {
+            script.onload = function(){
+                callback();
+            };
+        }
+    }
+    </script>
+
+		     <script type="text/javascript">
+                    var startDate = new Date().getTime();
+				    function initAnalytics(version)
+				    {
+					    var domain = typeof window.location !== "undefined"? window.location.hostname: '';
+					    if (typeof universalAnalytics !== 'undefined'){
+
+						    universalAnalytics.init(['UA-100690025-3'], domain, version, startDate, CURRENT_VERSION, true);
+						    universalAnalytics.pageView(CURRENT_PAGE);
+					    }
+				    }
+
+		    </script>
+		    <script type="text/javascript" src="./analytics/ua.js">
+	    } else
+	    {
+	      <script type="text/javascript">
+		     var _gaq = _gaq || [];
+		    _gaq.push(['_setAccount', 'UA-100690025-3']);
+		    _gaq.push(['_setAllowLinker', true]);
+		    _gaq.push(['_trackPageview']);
+			    _gaq.push (['_gat._anonymizeIp']);
+
+		    (function () {
+			    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		    })();
+	    </script>
+
+    <style type="text/css">
+        .areaLinkItem:hover, .contentItemHover:hover, .emptyImage:hover
+        {
+            	
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3FC7FF,endColorstr=#3FC7FF);
+	zoom:1;
+	
+	background:rgb(63,199,255);
+	background:rgba(63,199,255, 0.5);
+	
+
+        }
+
+
+
+    </style>
+</head>
+<body style="font-size: 20px; background-color: #ECF0F1;">
+	<div class="infoPopUp" id="infoPopUp" ></div>
+	<div class="popUp" id="popUp">
+		<a id="closeButton" class="closeButtonPopUp" href="#"></a>
+		<table class="popUpTable">
+			<tbody>
+				<tr>
+					<td>
+						<img alt="Cover" src="./../flash/pages/page0001_s.png" class="popUpCover" />
+					</td>
+					<td>
+						<h4 id="popupTitle">&nbsp;</h4>
+						<p id="popupText"></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="toolbar">
+		<ul class="zoomContainer" id="zoomContainer">
+			<li>
+				<a class="zoomInButton" id="zoomIn" href="#">
+					<img src="styles/zoomIn.png" alt="Zoom In" />
+				</a>
+			</li>
+			<li>
+				<a class="zoomOutButton" id="zoomOut" href="#">
+					<img src="styles/zoomOut.png" alt="Zoom Out" />
+				</a>
+			</li>
+		</ul>
+
+		
+		
+		<div class="toolbarButtons">
+		    
+				<ul class="downloadButton toolbarLink">
+					<li class="iconLi">
+						<img class="iconToolbar" src="styles/save.png" alt="Downloads" />
+                        <img class="iconToolbar mobile" src="styles/save-mobile.png" alt="Downloads" />
+					</li>
+						<li id="downloadPdf" class="downloadSubMenu">
+							<a id="downloadPdfLink" href="./../common/downloads/publication.pdf" target="_blank"></a>
+						</li>
+										                    					
+				</ul>
+		</div>
+
+		
+		
+
+			<a id="pagePrevArrow" class="toLeftButton toolbarLink internalLink" href="./page-24-25.html"><img class="iconToolbar" src="styles/previous.png" alt="Previous Page" /></a>
+        
+		<span class="pager"><span id="pageLabel"></span>&nbsp;26-27 / 116</span>
+
+				<a id="nextPageArrow" class="toRightButton toolbarLink internalLink" href="./page-28-29.html"><img class="iconToolbar" src="styles/next.png" alt="Next Page" /></a>
+
+		<ul class="sharingContainer">
+			<li>
+				<a class="facebookShare" id="facebookShare" href="#" target="_blank">
+                    <img src="styles/facebook_32.png" alt="Share on Facebook" />
+					<span id="facebookShareText" class="shareTitleMenu"></span>
+				</a>
+			</li>
+			<li>
+                <a class="twitterShare" id="twitterShare" href="#" target="_blank">
+                    <img src="styles/twitter_32.png" alt="Tweet" />
+                    <span id="twitterShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="linkedinShare" id="linkedinShare" href="#" target="_blank">
+                    <img src="styles/linkedin_32.png" alt="Share on LinkedIn" />
+                    <span id="linkedinShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="tumblrShare" id="tumblrShare" href="#" target="_blank">
+                    <img src="styles/tumblr_32.png" alt="Share on Tumblr" />
+                    <span id="tumblrShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="googleShare" id="googleShare" href="#" target="_blank">
+                    <img src="styles/google_32.png" alt="Share on Google+" />
+                    <span id="googleShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="mailShare" id="mailShare" href="#" target="_blank">
+                    <img src="styles/email_32.png" alt="E-mail" />
+                    <span id="mailShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="vkShare" id="vkShare" href="#" target="_blank">
+                    <img src="styles/vk_32.png" alt="Share on VK" />
+                    <span id="vkShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+		</ul>
+
+
+		<div class="verContainer" id="verContainer">
+			<span id="basicVersionTitle" class="basicInfoTitle"></span>
+			<a id="infoButton" class="toolbarLink info" href="#"><img class="iconInfo" src="styles/info.png" alt="Information" /></a>
+
+		</div>
+	</div>
+
+	<div class="mainFrame" id="mainFrame">
+
+		<a class="mobileMenuButton" id="mobileMenuButton">
+            <img src="styles/mobile-menu.png" alt="Show Menu" style="" />
+		</a>
+
+		<div class="mobileNav">
+					<a class="toLeftButton toolbarLink internalLink" href="./page-24-25.html"><img class="iconToolbar" src="styles/prev-mob.png" alt="Previous Page" /></a>
+			<span class="pager">26-27 / 116</span>
+					<a class="toRightButton toolbarLink internalLink" href="./page-28-29.html"><img class="iconToolbar" src="styles/next-mob.png" alt="Next Page" /></a>
+		</div>
+
+		<div id="pageContainer" class="pageContainer" style="width: 1296px; height: 864px; margin: 40px 0 0 -648px; background-color:#FFFFFF;">
+			<img alt="Page Background" src="./../common/page-substrates/page0014.jpg" style="width: 100%; height: 100%;">
+
+
+						<p class="textItem testString" style="top:93.750000%;left:94.598765%;width:0.771605%;height:1.504630%;font-size:0.500000em;color:#221F20;font-family:Abel;">
+							27
+						</p>
+						<p class="textItem " style="top:93.750000%;left:4.475309%;width:0.771605%;height:1.504630%;font-size:0.500000em;color:#221F20;font-family:Abel;">
+							26
+						</p>
+						<p class="textItem testString" style="top:5.671296%;left:4.629630%;width:4.938272%;height:1.620370%;font-size:0.600000em;color:#221F20;font-family:Fashion Didot;">
+							SOUTH CHINA ELITE
+						</p>
+						<p class="textItem testString" style="top:67.939815%;left:28.240741%;width:16.358025%;height:2.430556%;font-size:0.700000em;color:#221F20;font-family:Fira Sans Condensed;">
+							Private Banking &amp; Wealth Management
+						</p>
+						<p class="textItem " style="top:70.138889%;left:28.240741%;width:14.891975%;height:2.430556%;font-size:0.700000em;color:#221F20;font-family:Fira Sans Condensed;">
+							expert KC Tew examines the impact
+						</p>
+						<p class="textItem " style="top:72.337963%;left:28.240741%;width:14.583333%;height:2.430556%;font-size:0.700000em;color:#221F20;font-family:Fira Sans Condensed;">
+							of the global financial crisis on the
+						</p>
+						<p class="textItem " style="top:74.537037%;left:28.240741%;width:14.351852%;height:2.430556%;font-size:0.700000em;color:#221F20;font-family:Fira Sans Condensed;">
+							banking industry and whether the
+						</p>
+						<p class="textItem " style="top:76.736111%;left:28.240741%;width:16.358025%;height:2.430556%;font-size:0.700000em;color:#221F20;font-family:Fira Sans Condensed;">
+							Private Banking &amp; Wealth Management
+						</p>
+						<p class="textItem " style="top:78.935185%;left:28.240741%;width:16.589506%;height:2.430556%;font-size:0.700000em;color:#221F20;font-family:Fira Sans Condensed;">
+							industry still has a bright future in Asia.
+						</p>
+						<p class="textItem testString" style="top:84.027778%;left:28.240741%;width:16.589506%;height:2.083333%;font-size:0.700000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							私人銀行與財富管理專家KC Tew，
+						</p>
+						<p class="textItem " style="top:86.689815%;left:28.240741%;width:16.589506%;height:2.083333%;font-size:0.700000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							深入分析全球金融危機對銀行業的
+						</p>
+						<p class="textItem " style="top:89.351852%;left:28.240741%;width:16.589506%;height:2.083333%;font-size:0.700000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							影響，以及私人銀行與財富管理在
+						</p>
+						<p class="textItem " style="top:92.013889%;left:28.240741%;width:6.481481%;height:2.083333%;font-size:0.700000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							亞洲的前景。
+						</p>
+						<p class="textItem " style="top:47.453704%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							Mr KC Tew is an experienced professional in
+						</p>
+						<p class="textItem " style="top:49.074074%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							private banking, wealthmanagement and financial
+						</p>
+						<p class="textItem " style="top:50.694444%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							consulting. Over the past 30 years, his career
+						</p>
+						<p class="textItem " style="top:52.314815%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							span has covered banking and industrial areas in
+						</p>
+						<p class="textItem " style="top:53.935185%;left:9.182099%;width:13.580247%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							Singapore, Hong Kong, Taiwan and Shanghai.
+						</p>
+						<p class="textItem " style="top:55.555556%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							Mr Tew has an Honors degree in Physics, an MS in
+						</p>
+						<p class="textItem " style="top:57.175926%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							Management &amp; Organizational Development and
+						</p>
+						<p class="textItem " style="top:58.796296%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							an MBA in Finance with a minor in International
+						</p>
+						<p class="textItem " style="top:60.416667%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							Business. He is currently pursuing a DBA degree.
+						</p>
+						<p class="textItem " style="top:62.037037%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							He is now a freelance financial consultant,
+						</p>
+						<p class="textItem " style="top:63.657407%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							advisor, speaker and trainer. His primary life goal
+						</p>
+						<p class="textItem " style="top:65.277778%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							is to share his experience with newcomers, senior
+						</p>
+						<p class="textItem " style="top:66.898148%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							professionals, management and anyone who
+						</p>
+						<p class="textItem " style="top:68.518519%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							is interested in the private banking and wealth
+						</p>
+						<p class="textItem " style="top:70.138889%;left:9.182099%;width:6.790123%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							management industry.
+						</p>
+						<p class="textItem " style="top:73.611111%;left:9.182099%;width:15.046296%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							張金全在私人銀行、財富管理和財務顧問領域擁
+						</p>
+						<p class="textItem " style="top:75.347222%;left:9.182099%;width:15.046296%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							有豐富經驗。過去30多年間，他曾在新加坡、香
+						</p>
+						<p class="textItem " style="top:76.967593%;left:9.182099%;width:13.194444%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							港、台灣和上海等地的銀行及工商界任職。
+						</p>
+						<p class="textItem " style="top:78.703704%;left:9.182099%;width:15.046296%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							張金全擁有物理榮譽學士、管理及組織發展碩士
+						</p>
+						<p class="textItem " style="top:80.324074%;left:9.182099%;width:15.046296%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							以及工商管理碩士（副修國際商業）學位，現正
+						</p>
+						<p class="textItem " style="top:82.060185%;left:9.182099%;width:15.046296%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							攻讀工商管理博士課程。張金全現為自僱財務顧
+						</p>
+						<p class="textItem " style="top:83.680556%;left:9.182099%;width:15.046296%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							問、演講者及導師。他的人生目標為與一眾新進
+						</p>
+						<p class="textItem " style="top:85.416667%;left:9.182099%;width:15.046296%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							及資深專業人士、高層管理人員，以及對私人銀
+						</p>
+						<p class="textItem " style="top:87.037037%;left:9.182099%;width:12.885802%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							行與財富管理感興趣的人士分享其經驗。
+						</p>
+						<p class="textItem " style="top:40.277778%;left:18.132716%;width:2.160494%;height:1.504630%;font-size:0.500000em;color:#FFFFFF;font-family:Abel;">
+							KC Tew
+						</p>
+						<p class="textItem testString" style="top:41.666667%;left:18.132716%;width:2.314815%;height:1.504630%;font-size:0.500000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Regular;">
+							張金全
+						</p>
+						<p class="textItem testString" style="top:19.791667%;left:9.182099%;width:10.108025%;height:2.199074%;font-size:0.800000em;color:#FFFFFF;font-family:Droid Serif;">
+							About the author
+						</p>
+						<p class="textItem " style="top:21.990741%;left:9.182099%;width:4.012346%;height:1.967593%;font-size:0.650000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							作者簡介
+						</p>
+						<p class="textItem " style="top:55.208333%;left:56.867284%;width:27.237654%;height:8.796296%;font-size:2.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							Current trends of
+						</p>
+						<p class="textItem " style="top:60.763889%;left:56.867284%;width:31.790123%;height:8.796296%;font-size:2.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							private banking and
+						</p>
+						<p class="textItem " style="top:66.319444%;left:56.867284%;width:32.407407%;height:8.796296%;font-size:2.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							wealth management
+						</p>
+						<p class="textItem " style="top:71.875000%;left:56.867284%;width:10.570988%;height:8.796296%;font-size:2.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							in Asia
+						</p>
+						<p class="textItem " style="top:79.513889%;left:56.867284%;width:30.864198%;height:5.902778%;font-size:2.000000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							亞洲私人銀行與財富管
+						</p>
+						<p class="textItem " style="top:85.069444%;left:56.867284%;width:21.604938%;height:5.902778%;font-size:2.000000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							理之近況及動態
+						</p>
+						<p class="textItem testString" style="top:93.750000%;left:56.867284%;width:3.163580%;height:1.851852%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							<b>By KC Tew</b>
+						</p>
+						<p class="textItem " style="top:93.981481%;left:60.416667%;width:3.472222%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							文︰張金全
+						</p>
+						<p class="textItem " style="top:67.939815%;left:31.250000%;width:13.580247%;height:2.430556%;font-size:0.700000em;color:#221F20;font-family:Fira Sans Condensed;">
+							b i andwealthmanag t
+						</p>
+						<p class="textItem " style="top:70.138889%;left:34.567901%;width:10.339506%;height:2.430556%;font-size:0.700000em;color:#221F20;font-family:Fira Sans Condensed;">
+							exa ines the impact of
+						</p>
+						<p class="textItem " style="top:72.337963%;left:28.240741%;width:16.589506%;height:2.430556%;font-size:0.700000em;color:#221F20;font-family:Fira Sans Condensed;">
+							the global fina cial crisis on the banking
+						</p>
+						<p class="textItem " style="top:74.537037%;left:28.240741%;width:16.589506%;height:2.430556%;font-size:0.700000em;color:#221F20;font-family:Fira Sans Condensed;">
+							industrya whether theprivatebanking
+						</p>
+						<p class="textItem " style="top:76.736111%;left:28.240741%;width:16.589506%;height:2.430556%;font-size:0.700000em;color:#221F20;font-family:Fira Sans Condensed;">
+							and wealth management industry still
+						</p>
+						<p class="textItem " style="top:78.935185%;left:28.240741%;width:10.725309%;height:2.430556%;font-size:0.700000em;color:#221F20;font-family:Fira Sans Condensed;">
+							has a bright future in Asia.
+						</p>
+						<p class="textItem " style="top:84.027778%;left:40.432099%;width:4.398148%;height:2.083333%;font-size:0.700000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							張金全深
+						</p>
+						<p class="textItem " style="top:86.689815%;left:28.240741%;width:16.589506%;height:2.083333%;font-size:0.700000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							入分析全球金融危機對銀行業的影
+						</p>
+						<p class="textItem " style="top:89.351852%;left:28.240741%;width:16.589506%;height:2.083333%;font-size:0.700000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							響，以及私人銀行與財富管理在亞
+						</p>
+						<p class="textItem " style="top:92.013889%;left:28.240741%;width:5.401235%;height:2.083333%;font-size:0.700000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							洲的前景。
+						</p>
+		</div>
+
+		<div class="footer">
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-1.html">1</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-16-17.html">16-17</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-18-19.html">18-19</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-20-21.html">20-21</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-22-23.html">22-23</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-24-25.html">24-25</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink currPage" href="./page-26-27.html">26-27</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-28-29.html">28-29</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-30-31.html">30-31</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-32-33.html">32-33</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-34-35.html">34-35</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-36-37.html">36-37</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-38-39.html">38-39</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-116.html">116</a>
+
+				<a style="color:#3E3E43;" class="footerLink" href="./flipbook.html" target="_blank">
+					<span id="poweredBy"></span>&nbsp;FlippingBook
+				</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+	        if (typeof BASIC_PAGE === 'undefined' && typeof BasicPage !== 'undefined' ){
+	            BASIC_PAGE = new BasicPage();
+	        }
+	        GALLERY_CONTENT = {};
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+

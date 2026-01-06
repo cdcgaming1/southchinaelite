@@ -1,0 +1,464 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, minimum-scale=0.5, user-scalable=yes, maximum-scale=2.0, target-densitydpi=device-dpi" />
+
+    <title>South China Elite #1</title>
+
+    <meta charset="utf-8">
+
+    <meta name="robots" content="all"/>
+
+	<link href="./styles/style.css" type="text/css" rel="stylesheet" />
+	<link href="./styles/mobile.css" type="text/css" rel="stylesheet" />
+	
+    <script type="text/javascript">
+    CURRENT_PAGE = "32-33";
+    MAIN_PAGE     = "index.html";
+    FILES_FOLDER  = "issue1";
+    HTML5_PUBLICATION = true;
+
+
+    
+    </script>
+	
+	
+	<script src="./javascript/init.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        STATIC_FOLDER = ".";
+        DYNAMIC_FOLDER = "./..";
+
+        PUBLICATION_NAME = "South China Elite #1";
+
+        CURRENT_VERSION = "2.8.16";
+
+        LANGS = ['en','ar','de','es','fi','fr','he','it','ja','nl','no','pl','pt','ru','sv','tr','zh'];
+        PUBLICATION_TYPE = "catalog";
+        VIDEOS_INFO = {};
+
+    var main = function () {
+
+        loadScript('./javascript/localizator.js',function(){});
+
+        if (document.domain.indexOf('publ.com') != -1 || document.domain.indexOf('cld.bz') != -1 || document.domain.indexOf('cld.mobi') != -1 || document.domain.indexOf('cld.local') != -1) {
+            var staticServer = window.location.protocol === 'https:' ? 'https://d2ayihadozxfln.cloudfront.net' : ('http://static.' + window.location.hostname);
+            var url = staticServer + "/publication/" + CURRENT_VERSION + "/basic/cloud.js";
+            loadScript(url,function(){});
+        }
+
+			initAnalytics("basic");
+    }
+
+    if (!!window.addEventListener) {
+        window.addEventListener('load', main);
+    } else {
+        window.attachEvent('onload', main);
+    }
+
+    function loadScript(url, callback){
+        var head = document.getElementsByTagName("head")[0];
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = url;
+        head.appendChild(script);
+        if (script.readyState){
+            script.onreadystatechange = function(){
+                if (script.readyState == "loaded" ||
+						script.readyState == "complete"){
+                    script.onreadystatechange = null;
+                    callback();
+                }
+            };
+        } else {
+            script.onload = function(){
+                callback();
+            };
+        }
+    }
+    </script>
+
+		     <script type="text/javascript">
+                    var startDate = new Date().getTime();
+				    function initAnalytics(version)
+				    {
+					    var domain = typeof window.location !== "undefined"? window.location.hostname: '';
+					    if (typeof universalAnalytics !== 'undefined'){
+
+						    universalAnalytics.init(['UA-100690025-3'], domain, version, startDate, CURRENT_VERSION, true);
+						    universalAnalytics.pageView(CURRENT_PAGE);
+					    }
+				    }
+
+		    </script>
+		    <script type="text/javascript" src="./analytics/ua.js">
+	    } else
+	    {
+	      <script type="text/javascript">
+		     var _gaq = _gaq || [];
+		    _gaq.push(['_setAccount', 'UA-100690025-3']);
+		    _gaq.push(['_setAllowLinker', true]);
+		    _gaq.push(['_trackPageview']);
+			    _gaq.push (['_gat._anonymizeIp']);
+
+		    (function () {
+			    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		    })();
+	    </script>
+
+    <style type="text/css">
+        .areaLinkItem:hover, .contentItemHover:hover, .emptyImage:hover
+        {
+            	
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3FC7FF,endColorstr=#3FC7FF);
+	zoom:1;
+	
+	background:rgb(63,199,255);
+	background:rgba(63,199,255, 0.5);
+	
+
+        }
+
+
+
+    </style>
+</head>
+<body style="font-size: 20px; background-color: #ECF0F1;">
+	<div class="infoPopUp" id="infoPopUp" ></div>
+	<div class="popUp" id="popUp">
+		<a id="closeButton" class="closeButtonPopUp" href="#"></a>
+		<table class="popUpTable">
+			<tbody>
+				<tr>
+					<td>
+						<img alt="Cover" src="./../flash/pages/page0001_s.png" class="popUpCover" />
+					</td>
+					<td>
+						<h4 id="popupTitle">&nbsp;</h4>
+						<p id="popupText"></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="toolbar">
+		<ul class="zoomContainer" id="zoomContainer">
+			<li>
+				<a class="zoomInButton" id="zoomIn" href="#">
+					<img src="styles/zoomIn.png" alt="Zoom In" />
+				</a>
+			</li>
+			<li>
+				<a class="zoomOutButton" id="zoomOut" href="#">
+					<img src="styles/zoomOut.png" alt="Zoom Out" />
+				</a>
+			</li>
+		</ul>
+
+		
+		
+		<div class="toolbarButtons">
+		    
+				<ul class="downloadButton toolbarLink">
+					<li class="iconLi">
+						<img class="iconToolbar" src="styles/save.png" alt="Downloads" />
+                        <img class="iconToolbar mobile" src="styles/save-mobile.png" alt="Downloads" />
+					</li>
+						<li id="downloadPdf" class="downloadSubMenu">
+							<a id="downloadPdfLink" href="./../common/downloads/publication.pdf" target="_blank"></a>
+						</li>
+										                    					
+				</ul>
+		</div>
+
+		
+		
+
+			<a id="pagePrevArrow" class="toLeftButton toolbarLink internalLink" href="./page-30-31.html"><img class="iconToolbar" src="styles/previous.png" alt="Previous Page" /></a>
+        
+		<span class="pager"><span id="pageLabel"></span>&nbsp;32-33 / 116</span>
+
+				<a id="nextPageArrow" class="toRightButton toolbarLink internalLink" href="./page-34-35.html"><img class="iconToolbar" src="styles/next.png" alt="Next Page" /></a>
+
+		<ul class="sharingContainer">
+			<li>
+				<a class="facebookShare" id="facebookShare" href="#" target="_blank">
+                    <img src="styles/facebook_32.png" alt="Share on Facebook" />
+					<span id="facebookShareText" class="shareTitleMenu"></span>
+				</a>
+			</li>
+			<li>
+                <a class="twitterShare" id="twitterShare" href="#" target="_blank">
+                    <img src="styles/twitter_32.png" alt="Tweet" />
+                    <span id="twitterShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="linkedinShare" id="linkedinShare" href="#" target="_blank">
+                    <img src="styles/linkedin_32.png" alt="Share on LinkedIn" />
+                    <span id="linkedinShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="tumblrShare" id="tumblrShare" href="#" target="_blank">
+                    <img src="styles/tumblr_32.png" alt="Share on Tumblr" />
+                    <span id="tumblrShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="googleShare" id="googleShare" href="#" target="_blank">
+                    <img src="styles/google_32.png" alt="Share on Google+" />
+                    <span id="googleShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="mailShare" id="mailShare" href="#" target="_blank">
+                    <img src="styles/email_32.png" alt="E-mail" />
+                    <span id="mailShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="vkShare" id="vkShare" href="#" target="_blank">
+                    <img src="styles/vk_32.png" alt="Share on VK" />
+                    <span id="vkShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+		</ul>
+
+
+		<div class="verContainer" id="verContainer">
+			<span id="basicVersionTitle" class="basicInfoTitle"></span>
+			<a id="infoButton" class="toolbarLink info" href="#"><img class="iconInfo" src="styles/info.png" alt="Information" /></a>
+
+		</div>
+	</div>
+
+	<div class="mainFrame" id="mainFrame">
+
+		<a class="mobileMenuButton" id="mobileMenuButton">
+            <img src="styles/mobile-menu.png" alt="Show Menu" style="" />
+		</a>
+
+		<div class="mobileNav">
+					<a class="toLeftButton toolbarLink internalLink" href="./page-30-31.html"><img class="iconToolbar" src="styles/prev-mob.png" alt="Previous Page" /></a>
+			<span class="pager">32-33 / 116</span>
+					<a class="toRightButton toolbarLink internalLink" href="./page-34-35.html"><img class="iconToolbar" src="styles/next-mob.png" alt="Next Page" /></a>
+		</div>
+
+		<div id="pageContainer" class="pageContainer" style="width: 1296px; height: 864px; margin: 40px 0 0 -648px; background-color:#FFFFFF;">
+			<img alt="Page Background" src="./../common/page-substrates/page0017.jpg" style="width: 100%; height: 100%;">
+
+
+						<p class="textItem testString" style="top:93.750000%;left:94.598765%;width:0.848765%;height:1.504630%;font-size:0.500000em;color:#221F20;font-family:Abel;">
+							33
+						</p>
+						<p class="textItem " style="top:93.750000%;left:4.475309%;width:0.848765%;height:1.504630%;font-size:0.500000em;color:#221F20;font-family:Abel;">
+							32
+						</p>
+						<p class="textItem testString" style="top:5.671296%;left:4.629630%;width:4.938272%;height:1.620370%;font-size:0.600000em;color:#221F20;font-family:Fashion Didot;">
+							SOUTH CHINA ELITE
+						</p>
+						<p class="textItem testString" style="top:60.763889%;left:74.228395%;width:6.481481%;height:1.851852%;font-size:0.600000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							成功的關鍵因素
+						</p>
+						<p class="textItem testString" style="top:64.467593%;left:75.617284%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							管理高淨值人士財富的金融機構，有不少種類。在香港
+						</p>
+						<p class="textItem " style="top:66.087963%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							和新加坡，主要有銀行、證券公司、獨立財務顧問、資產管
+						</p>
+						<p class="textItem " style="top:67.708333%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							理及基金公司、家族辦公室，以及私募股權公司等。這些機
+						</p>
+						<p class="textItem " style="top:69.328704%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							構均受新加坡金融管理局、香港金融管理局，或香港證券及
+						</p>
+						<p class="textItem " style="top:70.949074%;left:74.228395%;width:8.333333%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							期貨事務監察委員會監管。
+						</p>
+						<p class="textItem " style="top:72.569444%;left:75.617284%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							在亞洲，銀行依然是管理多數高淨值人士資產的機構。
+						</p>
+						<p class="textItem " style="top:74.189815%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							以2016年為例，瑞士銀行管理約2,740億美元的資產，緊隨
+						</p>
+						<p class="textItem " style="top:75.810185%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							其後的是花旗銀行和瑞士信貸。在全球，瑞士銀行管理的資
+						</p>
+						<p class="textItem " style="top:77.430556%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							產總值約為1萬億美元。在亞洲，規模排名首20位的銀行，
+						</p>
+						<p class="textItem " style="top:79.050926%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							管理的資產總值約為14,700億美元。其它非銀行金融機構所
+						</p>
+						<p class="textItem " style="top:80.671296%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							管理的資產總值相對微不足道。資產和基金管理公司主要管
+						</p>
+						<p class="textItem " style="top:82.291667%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							理銀行（由高淨值人士投資）、本地以及國際機構投資者的
+						</p>
+						<p class="textItem " style="top:83.912037%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							投資基金。獨立財務顧問及家族辦公室等，則管理其它零星
+						</p>
+						<p class="textItem " style="top:85.532407%;left:74.228395%;width:2.083333%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							資產。
+						</p>
+						<p class="textItem " style="top:87.152778%;left:75.617284%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							私人銀行和財富管理業務能否成功、獲利及持續發展的
+						</p>
+						<p class="textItem " style="top:88.773148%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							關鍵因素，在於他們能否以最理想的成本收入比例，吸引及
+						</p>
+						<p class="textItem " style="top:90.393519%;left:74.228395%;width:7.638889%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							保持高淨值人士的財富。
+						</p>
+						<p class="textItem testString" style="top:46.412037%;left:54.320988%;width:11.033951%;height:1.736111%;font-size:0.600000em;color:#221F20;font-family:Droid Serif;">
+							<b>Critical Success Factors</b>
+						</p>
+						<p class="textItem testString" style="top:50.000000%;left:55.864198%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							There are various types of financial institutions
+						</p>
+						<p class="textItem " style="top:51.620370%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							handling the wealth of the HNWIs (High Net Worth
+						</p>
+						<p class="textItem " style="top:53.240741%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Individuals). In Hong Kong and Singapore, these consist
+						</p>
+						<p class="textItem " style="top:54.861111%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							mainly of the banks, securities houses, independent
+						</p>
+						<p class="textItem " style="top:56.481481%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							financial advisors (IFAs), asset management and fund
+						</p>
+						<p class="textItem " style="top:58.101852%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							companies, family offices and some private equity
+						</p>
+						<p class="textItem " style="top:59.722222%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							firms. All these companies are regulated by either MAS
+						</p>
+						<p class="textItem " style="top:61.342593%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							(Monetary Authority of Singapore), HKMA (Hong Kong
+						</p>
+						<p class="textItem " style="top:62.962963%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Monetary Authority) or SFC (Securities and Futures
+						</p>
+						<p class="textItem " style="top:64.583333%;left:54.320988%;width:9.182099%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Commission) in Hong Kong.
+						</p>
+						<p class="textItem " style="top:66.203704%;left:55.864198%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							In Asia, the banks still hold the largest amount of
+						</p>
+						<p class="textItem " style="top:67.824074%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							AUM of the HNWIs. UBS, for example, had about US$274
+						</p>
+						<p class="textItem " style="top:69.444444%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							billion of AUM in 2016; followed by Citibank and Credit
+						</p>
+						<p class="textItem " style="top:71.064815%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Suisse (globally, UBS maintains the biggest AUM of
+						</p>
+						<p class="textItem " style="top:72.685185%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							about US$1 trillion). Total AUM of the largest 20 banks
+						</p>
+						<p class="textItem " style="top:74.305556%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							amounted to about US$1.47 trillion in Asia. The other
+						</p>
+						<p class="textItem " style="top:75.925926%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							non-bank financial institutions retain inconsequential
+						</p>
+						<p class="textItem " style="top:77.546296%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							assets. Asset and fund management companies hold
+						</p>
+						<p class="textItem " style="top:79.166667%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							investment funds mainly from banks (invested by
+						</p>
+						<p class="textItem " style="top:80.787037%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							HNWIs), domestic and global institutional investors.
+						</p>
+						<p class="textItem " style="top:82.407407%;left:54.320988%;width:16.358025%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							IFAs and family offices hold other scattered assets.
+						</p>
+						<p class="textItem " style="top:84.027778%;left:55.864198%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							The critical determinant factors for a successful,
+						</p>
+						<p class="textItem " style="top:85.648148%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							profitable and sustainable private banking and wealth
+						</p>
+						<p class="textItem " style="top:87.268519%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							management business are the financial institution’s
+						</p>
+						<p class="textItem " style="top:88.888889%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							ability to attract and maintain the wealth of the HNWIs,
+						</p>
+						<p class="textItem " style="top:90.509259%;left:54.320988%;width:11.342593%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							at an optimal cost-to-income ratio.
+						</p>
+						<p class="textItem " style="top:12.615741%;left:76.774691%;width:11.342593%;height:3.587963%;font-size:1.200000em;color:#221F20;font-family:Abel;">
+							Outsiders are now
+						</p>
+						<p class="textItem " style="top:16.087963%;left:76.774691%;width:11.033951%;height:3.587963%;font-size:1.200000em;color:#221F20;font-family:Abel;">
+							imposing how the
+						</p>
+						<p class="textItem " style="top:19.560185%;left:76.774691%;width:11.188272%;height:3.587963%;font-size:1.200000em;color:#221F20;font-family:Abel;">
+							insiders should do
+						</p>
+						<p class="textItem " style="top:23.032407%;left:76.774691%;width:6.172840%;height:3.587963%;font-size:1.200000em;color:#221F20;font-family:Abel;">
+							their jobs.
+						</p>
+						<p class="textItem " style="top:34.027778%;left:76.774691%;width:12.962963%;height:3.587963%;font-size:1.200000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							現在，外行人指
+						</p>
+						<p class="textItem " style="top:37.500000%;left:76.774691%;width:12.962963%;height:3.587963%;font-size:1.200000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							示內行人該如何
+						</p>
+						<p class="textItem " style="top:40.972222%;left:76.774691%;width:5.555556%;height:3.587963%;font-size:1.200000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							行事。
+						</p>
+		</div>
+
+		<div class="footer">
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-1.html">1</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-22-23.html">22-23</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-24-25.html">24-25</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-26-27.html">26-27</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-28-29.html">28-29</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-30-31.html">30-31</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink currPage" href="./page-32-33.html">32-33</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-34-35.html">34-35</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-36-37.html">36-37</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-38-39.html">38-39</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-40-41.html">40-41</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-42-43.html">42-43</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-44-45.html">44-45</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-116.html">116</a>
+
+				<a style="color:#3E3E43;" class="footerLink" href="./flipbook.html" target="_blank">
+					<span id="poweredBy"></span>&nbsp;FlippingBook
+				</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+	        if (typeof BASIC_PAGE === 'undefined' && typeof BasicPage !== 'undefined' ){
+	            BASIC_PAGE = new BasicPage();
+	        }
+	        GALLERY_CONTENT = {};
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+

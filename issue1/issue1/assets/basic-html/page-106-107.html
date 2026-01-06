@@ -1,0 +1,438 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, minimum-scale=0.5, user-scalable=yes, maximum-scale=2.0, target-densitydpi=device-dpi" />
+
+    <title>South China Elite #1</title>
+
+    <meta charset="utf-8">
+
+    <meta name="robots" content="all"/>
+
+	<link href="./styles/style.css" type="text/css" rel="stylesheet" />
+	<link href="./styles/mobile.css" type="text/css" rel="stylesheet" />
+	
+    <script type="text/javascript">
+    CURRENT_PAGE = "106-107";
+    MAIN_PAGE     = "index.html";
+    FILES_FOLDER  = "issue1";
+    HTML5_PUBLICATION = true;
+
+
+    
+    </script>
+	
+	
+	<script src="./javascript/init.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        STATIC_FOLDER = ".";
+        DYNAMIC_FOLDER = "./..";
+
+        PUBLICATION_NAME = "South China Elite #1";
+
+        CURRENT_VERSION = "2.8.16";
+
+        LANGS = ['en','ar','de','es','fi','fr','he','it','ja','nl','no','pl','pt','ru','sv','tr','zh'];
+        PUBLICATION_TYPE = "catalog";
+        VIDEOS_INFO = {};
+
+    var main = function () {
+
+        loadScript('./javascript/localizator.js',function(){});
+
+        if (document.domain.indexOf('publ.com') != -1 || document.domain.indexOf('cld.bz') != -1 || document.domain.indexOf('cld.mobi') != -1 || document.domain.indexOf('cld.local') != -1) {
+            var staticServer = window.location.protocol === 'https:' ? 'https://d2ayihadozxfln.cloudfront.net' : ('http://static.' + window.location.hostname);
+            var url = staticServer + "/publication/" + CURRENT_VERSION + "/basic/cloud.js";
+            loadScript(url,function(){});
+        }
+
+			initAnalytics("basic");
+    }
+
+    if (!!window.addEventListener) {
+        window.addEventListener('load', main);
+    } else {
+        window.attachEvent('onload', main);
+    }
+
+    function loadScript(url, callback){
+        var head = document.getElementsByTagName("head")[0];
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = url;
+        head.appendChild(script);
+        if (script.readyState){
+            script.onreadystatechange = function(){
+                if (script.readyState == "loaded" ||
+						script.readyState == "complete"){
+                    script.onreadystatechange = null;
+                    callback();
+                }
+            };
+        } else {
+            script.onload = function(){
+                callback();
+            };
+        }
+    }
+    </script>
+
+		     <script type="text/javascript">
+                    var startDate = new Date().getTime();
+				    function initAnalytics(version)
+				    {
+					    var domain = typeof window.location !== "undefined"? window.location.hostname: '';
+					    if (typeof universalAnalytics !== 'undefined'){
+
+						    universalAnalytics.init(['UA-100690025-3'], domain, version, startDate, CURRENT_VERSION, true);
+						    universalAnalytics.pageView(CURRENT_PAGE);
+					    }
+				    }
+
+		    </script>
+		    <script type="text/javascript" src="./analytics/ua.js">
+	    } else
+	    {
+	      <script type="text/javascript">
+		     var _gaq = _gaq || [];
+		    _gaq.push(['_setAccount', 'UA-100690025-3']);
+		    _gaq.push(['_setAllowLinker', true]);
+		    _gaq.push(['_trackPageview']);
+			    _gaq.push (['_gat._anonymizeIp']);
+
+		    (function () {
+			    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		    })();
+	    </script>
+
+    <style type="text/css">
+        .areaLinkItem:hover, .contentItemHover:hover, .emptyImage:hover
+        {
+            	
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3FC7FF,endColorstr=#3FC7FF);
+	zoom:1;
+	
+	background:rgb(63,199,255);
+	background:rgba(63,199,255, 0.5);
+	
+
+        }
+
+
+
+    </style>
+</head>
+<body style="font-size: 20px; background-color: #ECF0F1;">
+	<div class="infoPopUp" id="infoPopUp" ></div>
+	<div class="popUp" id="popUp">
+		<a id="closeButton" class="closeButtonPopUp" href="#"></a>
+		<table class="popUpTable">
+			<tbody>
+				<tr>
+					<td>
+						<img alt="Cover" src="./../flash/pages/page0001_s.png" class="popUpCover" />
+					</td>
+					<td>
+						<h4 id="popupTitle">&nbsp;</h4>
+						<p id="popupText"></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="toolbar">
+		<ul class="zoomContainer" id="zoomContainer">
+			<li>
+				<a class="zoomInButton" id="zoomIn" href="#">
+					<img src="styles/zoomIn.png" alt="Zoom In" />
+				</a>
+			</li>
+			<li>
+				<a class="zoomOutButton" id="zoomOut" href="#">
+					<img src="styles/zoomOut.png" alt="Zoom Out" />
+				</a>
+			</li>
+		</ul>
+
+		
+		
+		<div class="toolbarButtons">
+		    
+				<ul class="downloadButton toolbarLink">
+					<li class="iconLi">
+						<img class="iconToolbar" src="styles/save.png" alt="Downloads" />
+                        <img class="iconToolbar mobile" src="styles/save-mobile.png" alt="Downloads" />
+					</li>
+						<li id="downloadPdf" class="downloadSubMenu">
+							<a id="downloadPdfLink" href="./../common/downloads/publication.pdf" target="_blank"></a>
+						</li>
+										                    					
+				</ul>
+		</div>
+
+		
+		
+
+			<a id="pagePrevArrow" class="toLeftButton toolbarLink internalLink" href="./page-104-105.html"><img class="iconToolbar" src="styles/previous.png" alt="Previous Page" /></a>
+        
+		<span class="pager"><span id="pageLabel"></span>&nbsp;106-107 / 116</span>
+
+				<a id="nextPageArrow" class="toRightButton toolbarLink internalLink" href="./page-108-109.html"><img class="iconToolbar" src="styles/next.png" alt="Next Page" /></a>
+
+		<ul class="sharingContainer">
+			<li>
+				<a class="facebookShare" id="facebookShare" href="#" target="_blank">
+                    <img src="styles/facebook_32.png" alt="Share on Facebook" />
+					<span id="facebookShareText" class="shareTitleMenu"></span>
+				</a>
+			</li>
+			<li>
+                <a class="twitterShare" id="twitterShare" href="#" target="_blank">
+                    <img src="styles/twitter_32.png" alt="Tweet" />
+                    <span id="twitterShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="linkedinShare" id="linkedinShare" href="#" target="_blank">
+                    <img src="styles/linkedin_32.png" alt="Share on LinkedIn" />
+                    <span id="linkedinShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="tumblrShare" id="tumblrShare" href="#" target="_blank">
+                    <img src="styles/tumblr_32.png" alt="Share on Tumblr" />
+                    <span id="tumblrShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="googleShare" id="googleShare" href="#" target="_blank">
+                    <img src="styles/google_32.png" alt="Share on Google+" />
+                    <span id="googleShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="mailShare" id="mailShare" href="#" target="_blank">
+                    <img src="styles/email_32.png" alt="E-mail" />
+                    <span id="mailShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="vkShare" id="vkShare" href="#" target="_blank">
+                    <img src="styles/vk_32.png" alt="Share on VK" />
+                    <span id="vkShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+		</ul>
+
+
+		<div class="verContainer" id="verContainer">
+			<span id="basicVersionTitle" class="basicInfoTitle"></span>
+			<a id="infoButton" class="toolbarLink info" href="#"><img class="iconInfo" src="styles/info.png" alt="Information" /></a>
+
+		</div>
+	</div>
+
+	<div class="mainFrame" id="mainFrame">
+
+		<a class="mobileMenuButton" id="mobileMenuButton">
+            <img src="styles/mobile-menu.png" alt="Show Menu" style="" />
+		</a>
+
+		<div class="mobileNav">
+					<a class="toLeftButton toolbarLink internalLink" href="./page-104-105.html"><img class="iconToolbar" src="styles/prev-mob.png" alt="Previous Page" /></a>
+			<span class="pager">106-107 / 116</span>
+					<a class="toRightButton toolbarLink internalLink" href="./page-108-109.html"><img class="iconToolbar" src="styles/next-mob.png" alt="Next Page" /></a>
+		</div>
+
+		<div id="pageContainer" class="pageContainer" style="width: 1296px; height: 864px; margin: 40px 0 0 -648px; background-color:#FFFFFF;">
+			<img alt="Page Background" src="./../common/page-substrates/page0054.jpg" style="width: 100%; height: 100%;">
+
+
+						<p class="textItem testString" style="top:93.750000%;left:94.598765%;width:1.234568%;height:1.504630%;font-size:0.500000em;color:#221F20;font-family:Abel;">
+							107
+						</p>
+						<p class="textItem " style="top:93.750000%;left:4.089506%;width:1.234568%;height:1.504630%;font-size:0.500000em;color:#221F20;font-family:Abel;">
+							106
+						</p>
+						<p class="textItem testString" style="top:5.671296%;left:4.629630%;width:4.938272%;height:1.620370%;font-size:0.600000em;color:#221F20;font-family:Fashion Didot;">
+							SOUTH CHINA ELITE
+						</p>
+						<p class="textItem testString" style="top:47.453704%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							Andrew was born in Australia and moved to
+						</p>
+						<p class="textItem " style="top:49.074074%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							Hong Kong in 2005 and Macau in 2009, when he
+						</p>
+						<p class="textItem " style="top:50.694444%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							founded O MEDIA, which publishes a range of
+						</p>
+						<p class="textItem " style="top:52.314815%;left:9.182099%;width:6.867284%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							publications including
+						</p>
+						<p class="textItem " style="top:52.314815%;left:16.358025%;width:5.324074%;height:1.736111%;font-size:0.507714em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							South China Elite
+						</p>
+						<p class="textItem " style="top:52.314815%;left:21.527778%;width:2.700617%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							. He was
+						</p>
+						<p class="textItem " style="top:53.935185%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							the 2014 Macau Person of the Year and regularly
+						</p>
+						<p class="textItem " style="top:55.555556%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							appears on television to commentate on Macau.
+						</p>
+						<p class="textItem " style="top:57.175926%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							He is a Fellow of the Hong Kong Institute of
+						</p>
+						<p class="textItem " style="top:58.796296%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							Directors, a permanent member of the Macau
+						</p>
+						<p class="textItem " style="top:60.416667%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							Gaming Management Association, President of the
+						</p>
+						<p class="textItem " style="top:62.037037%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							Macau Taxi Passengers Association and a member
+						</p>
+						<p class="textItem " style="top:63.657407%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							of the International Federation of Journalists,
+						</p>
+						<p class="textItem " style="top:65.277778%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							the Portuguese and English Press Association
+						</p>
+						<p class="textItem " style="top:66.898148%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							of Macau and the Poker Tournament Directors
+						</p>
+						<p class="textItem " style="top:68.518519%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							Association. He has a BCom and will complete
+						</p>
+						<p class="textItem " style="top:70.138889%;left:9.182099%;width:15.046296%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							an MSc in Integrated Resort Management at the
+						</p>
+						<p class="textItem " style="top:71.759259%;left:9.182099%;width:8.333333%;height:1.736111%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							University of Macau in 2017.
+						</p>
+						<p class="textItem testString" style="top:75.231481%;left:9.182099%;width:15.046296%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							卓奕在澳洲出生，於2005年移居香港。2009年移
+						</p>
+						<p class="textItem " style="top:76.967593%;left:9.182099%;width:15.046296%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							居澳門後，他創立了澳傳媒集團，旗下一系列刊
+						</p>
+						<p class="textItem " style="top:78.587963%;left:9.182099%;width:15.046296%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							物包括《南華精英》。卓奕是2014年度澳門年度
+						</p>
+						<p class="textItem " style="top:80.324074%;left:9.182099%;width:15.046296%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							人物，經常在電視節目上評論澳門時事。此外，
+						</p>
+						<p class="textItem " style="top:81.944444%;left:9.182099%;width:15.046296%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							他亦是香港董事學會會員、澳門博彩管理協會會
+						</p>
+						<p class="textItem " style="top:83.680556%;left:9.182099%;width:15.046296%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							員、澳門的士乘客協會主席、國際記者聯盟成
+						</p>
+						<p class="textItem " style="top:85.300926%;left:9.182099%;width:15.046296%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							員、澳門葡語及英語傳媒協會會員及撲克賽事總
+						</p>
+						<p class="textItem " style="top:87.037037%;left:9.182099%;width:15.046296%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							監協會會員。卓奕擁有商學士學位，並將於2017
+						</p>
+						<p class="textItem " style="top:88.657407%;left:9.182099%;width:13.117284%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							年完成澳門大學國際綜合度假村管理碩士。
+						</p>
+						<p class="textItem " style="top:40.277778%;left:18.132716%;width:4.629630%;height:1.504630%;font-size:0.500000em;color:#FFFFFF;font-family:Abel;">
+							Andrew W Scott
+						</p>
+						<p class="textItem testString" style="top:41.666667%;left:18.132716%;width:1.543210%;height:1.504630%;font-size:0.500000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Regular;">
+							卓奕
+						</p>
+						<p class="textItem " style="top:71.064815%;left:28.240741%;width:16.589506%;height:2.430556%;font-size:0.700000em;color:#221F20;font-family:Fira Sans Condensed;">
+							Having watched his father set up
+						</p>
+						<p class="textItem " style="top:73.263889%;left:28.240741%;width:16.589506%;height:2.430556%;font-size:0.700000em;color:#221F20;font-family:Fira Sans Condensed;">
+							Lamborghini’s Hong Kong dealership 25
+						</p>
+						<p class="textItem " style="top:75.462963%;left:28.240741%;width:16.589506%;height:2.430556%;font-size:0.700000em;color:#221F20;font-family:Fira Sans Condensed;">
+							years ago, AlbertWong explainswhy Asia
+						</p>
+						<p class="textItem " style="top:77.662037%;left:28.240741%;width:16.589506%;height:2.430556%;font-size:0.700000em;color:#221F20;font-family:Fira Sans Condensed;">
+							has become an enduring stronghold for
+						</p>
+						<p class="textItem " style="top:79.861111%;left:28.240741%;width:10.725309%;height:2.430556%;font-size:0.700000em;color:#221F20;font-family:Fira Sans Condensed;">
+							the iconic supercar brand.
+						</p>
+						<p class="textItem " style="top:84.259259%;left:28.240741%;width:16.589506%;height:2.083333%;font-size:0.700000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							見證父親在香港代理林寶堅尼25年
+						</p>
+						<p class="textItem " style="top:86.921296%;left:28.240741%;width:16.589506%;height:2.083333%;font-size:0.700000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							的黃卓徽（Albert Wong）向我們
+						</p>
+						<p class="textItem " style="top:89.583333%;left:28.240741%;width:16.589506%;height:2.083333%;font-size:0.700000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							解釋，為何亞洲已成為這個標誌性
+						</p>
+						<p class="textItem " style="top:92.245370%;left:28.240741%;width:10.802469%;height:2.083333%;font-size:0.700000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							超跑品牌的長期基地。
+						</p>
+						<p class="textItem " style="top:78.009259%;left:66.126543%;width:30.015432%;height:8.796296%;font-size:2.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							A league of its own
+						</p>
+						<p class="textItem " style="top:85.648148%;left:66.126543%;width:12.345679%;height:5.902778%;font-size:2.000000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							獨佔鰲頭
+						</p>
+						<p class="textItem testString" style="top:93.518519%;left:66.126543%;width:5.864198%;height:1.851852%;font-size:0.500000em;color:#FFFFFF;font-family:Fira Sans Condensed;">
+							<b>By Andrew W Scott</b>
+						</p>
+						<p class="textItem " style="top:93.865741%;left:72.453704%;width:2.777778%;height:1.388889%;font-size:0.450000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							文︰卓奕
+						</p>
+						<p class="textItem testString" style="top:19.791667%;left:9.182099%;width:10.108025%;height:2.199074%;font-size:0.800000em;color:#FFFFFF;font-family:Droid Serif;">
+							About the author
+						</p>
+						<p class="textItem " style="top:21.990741%;left:9.182099%;width:4.012346%;height:1.967593%;font-size:0.650000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							作者簡介
+						</p>
+		</div>
+
+		<div class="footer">
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-1.html">1</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-94-95.html">94-95</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-96-97.html">96-97</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-98-99.html">98-99</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-100-101.html">100-101</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-102-103.html">102-103</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-104-105.html">104-105</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink currPage" href="./page-106-107.html">106-107</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-108-109.html">108-109</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-110-111.html">110-111</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-112-113.html">112-113</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-114-115.html">114-115</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-116.html">116</a>
+
+				<a style="color:#3E3E43;" class="footerLink" href="./flipbook.html" target="_blank">
+					<span id="poweredBy"></span>&nbsp;FlippingBook
+				</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+	        if (typeof BASIC_PAGE === 'undefined' && typeof BasicPage !== 'undefined' ){
+	            BASIC_PAGE = new BasicPage();
+	        }
+	        GALLERY_CONTENT = {};
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+

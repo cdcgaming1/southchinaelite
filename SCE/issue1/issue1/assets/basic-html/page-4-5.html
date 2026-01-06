@@ -1,0 +1,444 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, minimum-scale=0.5, user-scalable=yes, maximum-scale=2.0, target-densitydpi=device-dpi" />
+
+    <title>South China Elite #1</title>
+
+    <meta charset="utf-8">
+
+    <meta name="robots" content="all"/>
+
+	<link href="./styles/style.css" type="text/css" rel="stylesheet" />
+	<link href="./styles/mobile.css" type="text/css" rel="stylesheet" />
+	
+    <script type="text/javascript">
+    CURRENT_PAGE = "4-5";
+    MAIN_PAGE     = "index.html";
+    FILES_FOLDER  = "issue1";
+    HTML5_PUBLICATION = true;
+
+
+    
+    </script>
+	
+	
+	<script src="./javascript/init.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        STATIC_FOLDER = ".";
+        DYNAMIC_FOLDER = "./..";
+
+        PUBLICATION_NAME = "South China Elite #1";
+
+        CURRENT_VERSION = "2.8.16";
+
+        LANGS = ['en','ar','de','es','fi','fr','he','it','ja','nl','no','pl','pt','ru','sv','tr','zh'];
+        PUBLICATION_TYPE = "catalog";
+        VIDEOS_INFO = {};
+
+    var main = function () {
+
+        loadScript('./javascript/localizator.js',function(){});
+
+        if (document.domain.indexOf('publ.com') != -1 || document.domain.indexOf('cld.bz') != -1 || document.domain.indexOf('cld.mobi') != -1 || document.domain.indexOf('cld.local') != -1) {
+            var staticServer = window.location.protocol === 'https:' ? 'https://d2ayihadozxfln.cloudfront.net' : ('http://static.' + window.location.hostname);
+            var url = staticServer + "/publication/" + CURRENT_VERSION + "/basic/cloud.js";
+            loadScript(url,function(){});
+        }
+
+    }
+
+    if (!!window.addEventListener) {
+        window.addEventListener('load', main);
+    } else {
+        window.attachEvent('onload', main);
+    }
+
+    function loadScript(url, callback){
+        var head = document.getElementsByTagName("head")[0];
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = url;
+        head.appendChild(script);
+        if (script.readyState){
+            script.onreadystatechange = function(){
+                if (script.readyState == "loaded" ||
+						script.readyState == "complete"){
+                    script.onreadystatechange = null;
+                    callback();
+                }
+            };
+        } else {
+            script.onload = function(){
+                callback();
+            };
+        }
+    }
+    </script>
+
+
+    <style type="text/css">
+        .areaLinkItem:hover, .contentItemHover:hover, .emptyImage:hover
+        {
+            	
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3FC7FF,endColorstr=#3FC7FF);
+	zoom:1;
+	
+	background:rgb(63,199,255);
+	background:rgba(63,199,255, 0.5);
+	
+
+        }
+
+
+
+    </style>
+</head>
+<body style="font-size: 20px; background-color: #ECF0F1;">
+	<div class="infoPopUp" id="infoPopUp" ></div>
+	<div class="popUp" id="popUp">
+		<a id="closeButton" class="closeButtonPopUp" href="#"></a>
+		<table class="popUpTable">
+			<tbody>
+				<tr>
+					<td>
+						<img alt="Cover" src="./../flash/pages/page0001_s.png" class="popUpCover" />
+					</td>
+					<td>
+						<h4 id="popupTitle">&nbsp;</h4>
+						<p id="popupText"></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="toolbar">
+		<ul class="zoomContainer" id="zoomContainer">
+			<li>
+				<a class="zoomInButton" id="zoomIn" href="#">
+					<img src="styles/zoomIn.png" alt="Zoom In" />
+				</a>
+			</li>
+			<li>
+				<a class="zoomOutButton" id="zoomOut" href="#">
+					<img src="styles/zoomOut.png" alt="Zoom Out" />
+				</a>
+			</li>
+		</ul>
+
+		
+		
+		<div class="toolbarButtons">
+		    
+				<ul class="downloadButton toolbarLink">
+					<li class="iconLi">
+						<img class="iconToolbar" src="styles/save.png" alt="Downloads" />
+                        <img class="iconToolbar mobile" src="styles/save-mobile.png" alt="Downloads" />
+					</li>
+						<li id="downloadPdf" class="downloadSubMenu">
+							<a id="downloadPdfLink" href="./../common/downloads/publication.pdf" target="_blank"></a>
+						</li>
+										                    					
+				</ul>
+		</div>
+
+		
+		
+
+			<a id="pagePrevArrow" class="toLeftButton toolbarLink internalLink" href="./page-2-3.html"><img class="iconToolbar" src="styles/previous.png" alt="Previous Page" /></a>
+        
+		<span class="pager"><span id="pageLabel"></span>&nbsp;4-5 / 116</span>
+
+				<a id="nextPageArrow" class="toRightButton toolbarLink internalLink" href="./page-6-7.html"><img class="iconToolbar" src="styles/next.png" alt="Next Page" /></a>
+
+		<ul class="sharingContainer">
+			<li>
+				<a class="facebookShare" id="facebookShare" href="#" target="_blank">
+                    <img src="styles/facebook_32.png" alt="Share on Facebook" />
+					<span id="facebookShareText" class="shareTitleMenu"></span>
+				</a>
+			</li>
+			<li>
+                <a class="twitterShare" id="twitterShare" href="#" target="_blank">
+                    <img src="styles/twitter_32.png" alt="Tweet" />
+                    <span id="twitterShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="linkedinShare" id="linkedinShare" href="#" target="_blank">
+                    <img src="styles/linkedin_32.png" alt="Share on LinkedIn" />
+                    <span id="linkedinShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="tumblrShare" id="tumblrShare" href="#" target="_blank">
+                    <img src="styles/tumblr_32.png" alt="Share on Tumblr" />
+                    <span id="tumblrShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="googleShare" id="googleShare" href="#" target="_blank">
+                    <img src="styles/google_32.png" alt="Share on Google+" />
+                    <span id="googleShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="mailShare" id="mailShare" href="#" target="_blank">
+                    <img src="styles/email_32.png" alt="E-mail" />
+                    <span id="mailShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="vkShare" id="vkShare" href="#" target="_blank">
+                    <img src="styles/vk_32.png" alt="Share on VK" />
+                    <span id="vkShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+		</ul>
+
+
+		<div class="verContainer" id="verContainer">
+			<span id="basicVersionTitle" class="basicInfoTitle"></span>
+			<a id="infoButton" class="toolbarLink info" href="#"><img class="iconInfo" src="styles/info.png" alt="Information" /></a>
+
+		</div>
+	</div>
+
+	<div class="mainFrame" id="mainFrame">
+
+		<a class="mobileMenuButton" id="mobileMenuButton">
+            <img src="styles/mobile-menu.png" alt="Show Menu" style="" />
+		</a>
+
+		<div class="mobileNav">
+					<a class="toLeftButton toolbarLink internalLink" href="./page-2-3.html"><img class="iconToolbar" src="styles/prev-mob.png" alt="Previous Page" /></a>
+			<span class="pager">4-5 / 116</span>
+					<a class="toRightButton toolbarLink internalLink" href="./page-6-7.html"><img class="iconToolbar" src="styles/next-mob.png" alt="Next Page" /></a>
+		</div>
+
+		<div id="pageContainer" class="pageContainer" style="width: 1296px; height: 864px; margin: 40px 0 0 -648px; background-color:#FFFFFF;">
+			<img alt="Page Background" src="./../common/page-substrates/page0003.jpg" style="width: 100%; height: 100%;">
+
+
+						<p class="textItem testString" style="top:93.750000%;left:94.598765%;width:0.462963%;height:1.504630%;font-size:0.500000em;color:#221F20;font-family:Abel;">
+							5
+						</p>
+						<p class="textItem " style="top:93.750000%;left:4.861111%;width:0.385802%;height:1.504630%;font-size:0.500000em;color:#221F20;font-family:Abel;">
+							4
+						</p>
+						<p class="textItem testString" style="top:5.671296%;left:4.629630%;width:4.938272%;height:1.620370%;font-size:0.600000em;color:#221F20;font-family:Fashion Didot;">
+							SOUTH CHINA ELITE
+						</p>
+						<p class="textItem " style="top:9.259259%;left:7.638889%;width:11.805556%;height:5.208333%;font-size:1.750000em;color:#FFFFFF;font-family:Abel;">
+							Cover Story
+						</p>
+						<p class="textItem testString" style="top:6.944444%;left:19.984568%;width:9.259259%;height:9.953704%;font-size:1.500000em;color:#FFFFFF;font-family:Noto Sans CJKtc;">
+							封面故事
+						</p>
+						<p class="textItem testString" style="top:16.319444%;left:9.182099%;width:4.629630%;height:7.523148%;font-size:2.750000em;color:#221F20;font-family:Droid Serif;">
+							<b>10</b>
+						</p>
+						<p class="textItem testString" style="top:21.643519%;left:9.182099%;width:12.885802%;height:8.449074%;font-size:2.500000em;color:#221F20;font-family:Fira Sans Condensed;">
+							Brian To
+						</p>
+						<p class="textItem " style="top:27.777778%;left:9.182099%;width:25.540123%;height:8.217593%;font-size:2.500000em;color:#221F20;font-family:Fira Sans Condensed;">
+							Global Strategist
+						</p>
+						<p class="textItem testString" style="top:34.490741%;left:9.182099%;width:17.361111%;height:6.597222%;font-size:2.250000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							全球策略家
+						</p>
+						<p class="textItem " style="top:8.101852%;left:65.972222%;width:10.262346%;height:5.671296%;font-size:1.900000em;color:#88292C;font-family:Abel;">
+							Contents
+						</p>
+						<p class="textItem " style="top:8.796296%;left:76.851852%;width:4.629630%;height:4.398148%;font-size:1.500000em;color:#88292C;font-family:Microsoft Jheng Hei Regular;">
+							目錄
+						</p>
+						<p class="textItem " style="top:46.296296%;left:67.361111%;width:1.234568%;height:1.967593%;font-size:0.700000em;color:#221F20;font-family:Droid Serif;">
+							<b>58</b>
+						</p>
+						<p class="textItem " style="top:48.032407%;left:67.361111%;width:10.570988%;height:1.967593%;font-size:0.600000em;color:#221F20;font-family:Fira Sans Condensed;">
+							Why we are bullish on China
+						</p>
+						<p class="textItem " style="top:49.768519%;left:67.361111%;width:7.407407%;height:1.851852%;font-size:0.600000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							我們緣何看好中國
+						</p>
+						<p class="textItem " style="top:53.240741%;left:67.361111%;width:1.234568%;height:1.967593%;font-size:0.700000em;color:#221F20;font-family:Droid Serif;">
+							<b>66</b>
+						</p>
+						<p class="textItem " style="top:54.976852%;left:67.361111%;width:13.271605%;height:1.967593%;font-size:0.600000em;color:#221F20;font-family:Fira Sans Condensed;">
+							Countercyclical corporate strategies
+						</p>
+						<p class="textItem " style="top:56.712963%;left:67.361111%;width:6.481481%;height:1.851852%;font-size:0.600000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							企業逆週期策略
+						</p>
+						<p class="textItem " style="top:60.532407%;left:67.361111%;width:1.234568%;height:1.967593%;font-size:0.700000em;color:#221F20;font-family:Droid Serif;">
+							<b>78</b>
+						</p>
+						<p class="textItem " style="top:62.268519%;left:67.361111%;width:15.895062%;height:1.967593%;font-size:0.600000em;color:#221F20;font-family:Fira Sans Condensed;">
+							Hong Kong property – too good to be true?
+						</p>
+						<p class="textItem " style="top:64.004630%;left:67.361111%;width:3.703704%;height:1.851852%;font-size:0.600000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							香港樓市
+						</p>
+						<p class="textItem " style="top:64.351852%;left:71.064815%;width:1.543210%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							——
+						</p>
+						<p class="textItem " style="top:64.004630%;left:72.608025%;width:5.092593%;height:1.851852%;font-size:0.600000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							福兮禍所伏?
+						</p>
+						<p class="textItem " style="top:23.726852%;left:67.438272%;width:1.234568%;height:1.967593%;font-size:0.700000em;color:#221F20;font-family:Droid Serif;">
+							<b>26</b>
+						</p>
+						<p class="textItem " style="top:25.462963%;left:67.438272%;width:16.743827%;height:1.967593%;font-size:0.600000em;color:#221F20;font-family:Fira Sans Condensed;">
+							Current trends of private banking and wealth
+						</p>
+						<p class="textItem " style="top:27.083333%;left:67.438272%;width:7.638889%;height:1.967593%;font-size:0.600000em;color:#221F20;font-family:Fira Sans Condensed;">
+							management in Asia
+						</p>
+						<p class="textItem " style="top:28.935185%;left:67.438272%;width:15.740741%;height:1.851852%;font-size:0.600000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							亞洲私人銀行與財富管理之近況及動態
+						</p>
+						<p class="textItem " style="top:32.870370%;left:67.438272%;width:1.234568%;height:1.967593%;font-size:0.700000em;color:#221F20;font-family:Droid Serif;">
+							<b>38</b>
+						</p>
+						<p class="textItem " style="top:34.606481%;left:67.438272%;width:9.413580%;height:1.967593%;font-size:0.600000em;color:#221F20;font-family:Fira Sans Condensed;">
+							The business of business
+						</p>
+						<p class="textItem " style="top:36.342593%;left:67.438272%;width:3.703704%;height:1.851852%;font-size:0.600000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							管理睿智
+						</p>
+						<p class="textItem " style="top:73.726852%;left:67.361111%;width:1.234568%;height:1.967593%;font-size:0.700000em;color:#221F20;font-family:Droid Serif;">
+							<b>88</b>
+						</p>
+						<p class="textItem " style="top:75.462963%;left:67.361111%;width:5.324074%;height:1.967593%;font-size:0.600000em;color:#221F20;font-family:Fira Sans Condensed;">
+							Call of the sea
+						</p>
+						<p class="textItem " style="top:77.199074%;left:67.361111%;width:4.629630%;height:1.851852%;font-size:0.600000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							大海的呼喚
+						</p>
+						<p class="textItem " style="top:81.250000%;left:67.361111%;width:1.851852%;height:1.967593%;font-size:0.700000em;color:#221F20;font-family:Droid Serif;">
+							<b>106</b>
+						</p>
+						<p class="textItem " style="top:82.986111%;left:67.361111%;width:7.098765%;height:1.967593%;font-size:0.600000em;color:#221F20;font-family:Fira Sans Condensed;">
+							A league of its own
+						</p>
+						<p class="textItem " style="top:84.722222%;left:67.361111%;width:3.703704%;height:1.851852%;font-size:0.600000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							獨佔鰲頭
+						</p>
+						<p class="textItem testString" style="top:19.560185%;left:67.283951%;width:6.404321%;height:2.777778%;font-size:1.000000em;color:#FFFFFF;font-family:Droid Serif;">
+							Business
+						</p>
+						<p class="textItem testString" style="top:19.907407%;left:74.074074%;width:2.469136%;height:2.430556%;font-size:0.800000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							商業
+						</p>
+						<p class="textItem " style="top:42.129630%;left:67.283951%;width:5.864198%;height:2.777778%;font-size:1.000000em;color:#FFFFFF;font-family:Droid Serif;">
+							Insights
+						</p>
+						<p class="textItem " style="top:42.361111%;left:73.456790%;width:2.469136%;height:2.430556%;font-size:0.800000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							見解
+						</p>
+						<p class="textItem " style="top:69.560185%;left:67.283951%;width:6.327160%;height:2.777778%;font-size:1.000000em;color:#FFFFFF;font-family:Droid Serif;">
+							Lifestyle
+						</p>
+						<p class="textItem " style="top:69.907407%;left:73.919753%;width:2.469136%;height:2.430556%;font-size:0.800000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							生活
+						</p>
+						<p class="textItem " style="top:12.268519%;left:38.888889%;width:3.780864%;height:1.273148%;font-size:0.400000em;color:#221F20;font-family:Abel;">
+							By Ben Blaschke
+						</p>
+						<p class="textItem " style="top:13.310185%;left:38.888889%;width:3.086420%;height:1.273148%;font-size:0.400000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							文︰本思齊
+						</p>
+						<p class="textItem " style="top:50.000000%;left:55.787037%;width:4.475309%;height:1.273148%;font-size:0.400000em;color:#221F20;font-family:Abel;">
+							By Jonathan Garner
+						</p>
+						<p class="textItem " style="top:51.041667%;left:54.552469%;width:1.234568%;height:1.273148%;font-size:0.400000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							文︰
+						</p>
+						<p class="textItem " style="top:51.157407%;left:55.787037%;width:4.475309%;height:1.041667%;font-size:0.350000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							Johnathan Garner
+						</p>
+						<p class="textItem " style="top:56.828704%;left:55.478395%;width:4.783951%;height:1.273148%;font-size:0.400000em;color:#221F20;font-family:Abel;">
+							By Michael C S Wong
+						</p>
+						<p class="textItem " style="top:57.986111%;left:57.098765%;width:3.086420%;height:1.273148%;font-size:0.400000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							文︰王澤森
+						</p>
+						<p class="textItem " style="top:64.120370%;left:55.169753%;width:5.015432%;height:1.273148%;font-size:0.400000em;color:#221F20;font-family:Abel;">
+							By Praveen Choudhary
+						</p>
+						<p class="textItem " style="top:65.277778%;left:54.320988%;width:1.234568%;height:1.273148%;font-size:0.400000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							文︰
+						</p>
+						<p class="textItem " style="top:65.393519%;left:55.555556%;width:4.706790%;height:1.041667%;font-size:0.350000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							Praveen Choudhary
+						</p>
+						<p class="textItem " style="top:77.314815%;left:56.790123%;width:3.395062%;height:1.273148%;font-size:0.400000em;color:#221F20;font-family:Abel;">
+							By Raquel Dias
+						</p>
+						<p class="textItem " style="top:78.472222%;left:57.098765%;width:3.086420%;height:1.273148%;font-size:0.400000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							文︰戴樂瑩
+						</p>
+						<p class="textItem " style="top:85.069444%;left:55.787037%;width:4.398148%;height:1.273148%;font-size:0.400000em;color:#221F20;font-family:Abel;">
+							By Andrew W Scott
+						</p>
+						<p class="textItem " style="top:86.226852%;left:57.716049%;width:2.469136%;height:1.273148%;font-size:0.400000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							文︰卓奕
+						</p>
+						<p class="textItem " style="top:27.314815%;left:57.793210%;width:2.391975%;height:1.273148%;font-size:0.400000em;color:#221F20;font-family:Abel;">
+							By KC Tew
+						</p>
+						<p class="textItem " style="top:28.472222%;left:57.098765%;width:3.086420%;height:1.273148%;font-size:0.400000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							文︰張金全
+						</p>
+						<p class="textItem " style="top:36.689815%;left:57.021605%;width:3.163580%;height:1.273148%;font-size:0.400000em;color:#221F20;font-family:Abel;">
+							By Dr Brian To
+						</p>
+						<p class="textItem " style="top:37.847222%;left:57.716049%;width:2.469136%;height:1.273148%;font-size:0.400000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							文︰博士
+						</p>
+		</div>
+
+		<div class="footer">
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-1.html">1</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-2-3.html">2-3</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink currPage" href="./page-4-5.html">4-5</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-6-7.html">6-7</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-8-9.html">8-9</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-10-11.html">10-11</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-12-13.html">12-13</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-14-15.html">14-15</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-16-17.html">16-17</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-18-19.html">18-19</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-20-21.html">20-21</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-22-23.html">22-23</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-116.html">116</a>
+
+				<a style="color:#3E3E43;" class="footerLink" href="./flipbook.html" target="_blank">
+					<span id="poweredBy"></span>&nbsp;FlippingBook
+				</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+	        if (typeof BASIC_PAGE === 'undefined' && typeof BasicPage !== 'undefined' ){
+	            BASIC_PAGE = new BasicPage();
+	        }
+	        GALLERY_CONTENT = {};
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+

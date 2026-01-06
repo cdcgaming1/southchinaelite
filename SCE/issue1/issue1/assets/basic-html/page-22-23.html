@@ -1,0 +1,371 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, minimum-scale=0.5, user-scalable=yes, maximum-scale=2.0, target-densitydpi=device-dpi" />
+
+    <title>South China Elite #1</title>
+
+    <meta charset="utf-8">
+
+    <meta name="robots" content="all"/>
+
+	<link href="./styles/style.css" type="text/css" rel="stylesheet" />
+	<link href="./styles/mobile.css" type="text/css" rel="stylesheet" />
+	
+    <script type="text/javascript">
+    CURRENT_PAGE = "22-23";
+    MAIN_PAGE     = "index.html";
+    FILES_FOLDER  = "issue1";
+    HTML5_PUBLICATION = true;
+
+
+    
+    </script>
+	
+	
+	<script src="./javascript/init.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        STATIC_FOLDER = ".";
+        DYNAMIC_FOLDER = "./..";
+
+        PUBLICATION_NAME = "South China Elite #1";
+
+        CURRENT_VERSION = "2.8.16";
+
+        LANGS = ['en','ar','de','es','fi','fr','he','it','ja','nl','no','pl','pt','ru','sv','tr','zh'];
+        PUBLICATION_TYPE = "catalog";
+        VIDEOS_INFO = {};
+
+    var main = function () {
+
+        loadScript('./javascript/localizator.js',function(){});
+
+        if (document.domain.indexOf('publ.com') != -1 || document.domain.indexOf('cld.bz') != -1 || document.domain.indexOf('cld.mobi') != -1 || document.domain.indexOf('cld.local') != -1) {
+            var staticServer = window.location.protocol === 'https:' ? 'https://d2ayihadozxfln.cloudfront.net' : ('http://static.' + window.location.hostname);
+            var url = staticServer + "/publication/" + CURRENT_VERSION + "/basic/cloud.js";
+            loadScript(url,function(){});
+        }
+
+    }
+
+    if (!!window.addEventListener) {
+        window.addEventListener('load', main);
+    } else {
+        window.attachEvent('onload', main);
+    }
+
+    function loadScript(url, callback){
+        var head = document.getElementsByTagName("head")[0];
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = url;
+        head.appendChild(script);
+        if (script.readyState){
+            script.onreadystatechange = function(){
+                if (script.readyState == "loaded" ||
+						script.readyState == "complete"){
+                    script.onreadystatechange = null;
+                    callback();
+                }
+            };
+        } else {
+            script.onload = function(){
+                callback();
+            };
+        }
+    }
+    </script>
+
+
+    <style type="text/css">
+        .areaLinkItem:hover, .contentItemHover:hover, .emptyImage:hover
+        {
+            	
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3FC7FF,endColorstr=#3FC7FF);
+	zoom:1;
+	
+	background:rgb(63,199,255);
+	background:rgba(63,199,255, 0.5);
+	
+
+        }
+
+
+
+    </style>
+</head>
+<body style="font-size: 20px; background-color: #ECF0F1;">
+	<div class="infoPopUp" id="infoPopUp" ></div>
+	<div class="popUp" id="popUp">
+		<a id="closeButton" class="closeButtonPopUp" href="#"></a>
+		<table class="popUpTable">
+			<tbody>
+				<tr>
+					<td>
+						<img alt="Cover" src="./../flash/pages/page0001_s.png" class="popUpCover" />
+					</td>
+					<td>
+						<h4 id="popupTitle">&nbsp;</h4>
+						<p id="popupText"></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="toolbar">
+		<ul class="zoomContainer" id="zoomContainer">
+			<li>
+				<a class="zoomInButton" id="zoomIn" href="#">
+					<img src="styles/zoomIn.png" alt="Zoom In" />
+				</a>
+			</li>
+			<li>
+				<a class="zoomOutButton" id="zoomOut" href="#">
+					<img src="styles/zoomOut.png" alt="Zoom Out" />
+				</a>
+			</li>
+		</ul>
+
+		
+		
+		<div class="toolbarButtons">
+		    
+				<ul class="downloadButton toolbarLink">
+					<li class="iconLi">
+						<img class="iconToolbar" src="styles/save.png" alt="Downloads" />
+                        <img class="iconToolbar mobile" src="styles/save-mobile.png" alt="Downloads" />
+					</li>
+						<li id="downloadPdf" class="downloadSubMenu">
+							<a id="downloadPdfLink" href="./../common/downloads/publication.pdf" target="_blank"></a>
+						</li>
+										                    					
+				</ul>
+		</div>
+
+		
+		
+
+			<a id="pagePrevArrow" class="toLeftButton toolbarLink internalLink" href="./page-20-21.html"><img class="iconToolbar" src="styles/previous.png" alt="Previous Page" /></a>
+        
+		<span class="pager"><span id="pageLabel"></span>&nbsp;22-23 / 116</span>
+
+				<a id="nextPageArrow" class="toRightButton toolbarLink internalLink" href="./page-24-25.html"><img class="iconToolbar" src="styles/next.png" alt="Next Page" /></a>
+
+		<ul class="sharingContainer">
+			<li>
+				<a class="facebookShare" id="facebookShare" href="#" target="_blank">
+                    <img src="styles/facebook_32.png" alt="Share on Facebook" />
+					<span id="facebookShareText" class="shareTitleMenu"></span>
+				</a>
+			</li>
+			<li>
+                <a class="twitterShare" id="twitterShare" href="#" target="_blank">
+                    <img src="styles/twitter_32.png" alt="Tweet" />
+                    <span id="twitterShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="linkedinShare" id="linkedinShare" href="#" target="_blank">
+                    <img src="styles/linkedin_32.png" alt="Share on LinkedIn" />
+                    <span id="linkedinShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="tumblrShare" id="tumblrShare" href="#" target="_blank">
+                    <img src="styles/tumblr_32.png" alt="Share on Tumblr" />
+                    <span id="tumblrShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="googleShare" id="googleShare" href="#" target="_blank">
+                    <img src="styles/google_32.png" alt="Share on Google+" />
+                    <span id="googleShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="mailShare" id="mailShare" href="#" target="_blank">
+                    <img src="styles/email_32.png" alt="E-mail" />
+                    <span id="mailShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="vkShare" id="vkShare" href="#" target="_blank">
+                    <img src="styles/vk_32.png" alt="Share on VK" />
+                    <span id="vkShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+		</ul>
+
+
+		<div class="verContainer" id="verContainer">
+			<span id="basicVersionTitle" class="basicInfoTitle"></span>
+			<a id="infoButton" class="toolbarLink info" href="#"><img class="iconInfo" src="styles/info.png" alt="Information" /></a>
+
+		</div>
+	</div>
+
+	<div class="mainFrame" id="mainFrame">
+
+		<a class="mobileMenuButton" id="mobileMenuButton">
+            <img src="styles/mobile-menu.png" alt="Show Menu" style="" />
+		</a>
+
+		<div class="mobileNav">
+					<a class="toLeftButton toolbarLink internalLink" href="./page-20-21.html"><img class="iconToolbar" src="styles/prev-mob.png" alt="Previous Page" /></a>
+			<span class="pager">22-23 / 116</span>
+					<a class="toRightButton toolbarLink internalLink" href="./page-24-25.html"><img class="iconToolbar" src="styles/next-mob.png" alt="Next Page" /></a>
+		</div>
+
+		<div id="pageContainer" class="pageContainer" style="width: 1296px; height: 864px; margin: 40px 0 0 -648px; background-color:#FFFFFF;">
+			<img alt="Page Background" src="./../common/page-substrates/page0012.jpg" style="width: 100%; height: 100%;">
+
+
+						<p class="textItem testString" style="top:93.750000%;left:94.598765%;width:0.848765%;height:1.504630%;font-size:0.500000em;color:#221F20;font-family:Abel;">
+							23
+						</p>
+						<p class="textItem " style="top:93.750000%;left:4.475309%;width:0.771605%;height:1.504630%;font-size:0.500000em;color:#221F20;font-family:Abel;">
+							22
+						</p>
+						<p class="textItem testString" style="top:5.671296%;left:4.629630%;width:4.938272%;height:1.620370%;font-size:0.600000em;color:#221F20;font-family:Fashion Didot;">
+							SOUTH CHINA ELITE
+						</p>
+						<p class="textItem testString" style="top:23.611111%;left:75.694444%;width:11.188272%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<b>BB: You’re a change agent then?</b>
+						</p>
+						<p class="textItem " style="top:25.231481%;left:75.694444%;width:1.157407%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<b>BT:</b>
+						</p>
+						<p class="textItem testString" style="top:25.231481%;left:77.314815%;width:15.046296%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							In every situation and instance you’re a
+						</p>
+						<p class="textItem " style="top:26.851852%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							facilitator of change as an advisor or professor. Yes,
+						</p>
+						<p class="textItem " style="top:28.472222%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							I believe all of us are fundamentally change agents,
+						</p>
+						<p class="textItem " style="top:30.092593%;left:74.228395%;width:16.358025%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							albeit often we are reluctant to change ourselves.
+						</p>
+						<p class="textItem " style="top:33.333333%;left:75.694444%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<b>BB: Finally Brian, what led you in this career</b>
+						</p>
+						<p class="textItem " style="top:34.953704%;left:74.228395%;width:3.626543%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<b>direction?</b>
+						</p>
+						<p class="textItem " style="top:36.574074%;left:75.694444%;width:1.157407%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<b>BT:</b>
+						</p>
+						<p class="textItem " style="top:36.574074%;left:77.006173%;width:15.354938%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							It’s merely the fulfilment of a childhood
+						</p>
+						<p class="textItem " style="top:38.194444%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							dream. I used to listen to my father and the meetings
+						</p>
+						<p class="textItem " style="top:39.814815%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							that he had. I was only four or five years of age and I
+						</p>
+						<p class="textItem " style="top:41.435185%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							always wanted to be able to contribute to business and
+						</p>
+						<p class="textItem " style="top:43.055556%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							always wanted to be a business consultant. But I was
+						</p>
+						<p class="textItem " style="top:44.675926%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							ambitious as a child. I always wanted to be a professor
+						</p>
+						<p class="textItem " style="top:46.296296%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							too. I wanted to pass knowledge onto others. And I also
+						</p>
+						<p class="textItem " style="top:47.916667%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							wanted to be in the military! I had aspirations for all
+						</p>
+						<p class="textItem " style="top:49.537037%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							of those things. Today I am involved with the military,
+						</p>
+						<p class="textItem " style="top:51.157407%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							with non-profits, I’m heavily involved in academia as
+						</p>
+						<p class="textItem " style="top:52.777778%;left:74.228395%;width:14.274691%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							well as advising CEOs and board members.
+						</p>
+						<p class="textItem testString" style="top:57.060185%;left:75.617284%;width:9.182099%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							本思齊：你是帶動變革者嗎？
+						</p>
+						<p class="textItem " style="top:58.680556%;left:75.617284%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							Brian To博士：身為顧問或教授的人，在任何情況下均是
+						</p>
+						<p class="textItem " style="top:60.300926%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							協助變革的因素。我認為我們本質上都是促進變革的因素，儘
+						</p>
+						<p class="textItem " style="top:61.921296%;left:74.228395%;width:8.719136%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							管我們往往不願意改變自己。
+						</p>
+						<p class="textItem " style="top:65.162037%;left:75.617284%;width:15.432099%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							本思齊：最後，驅使你選擇這個事業的原因為何？
+						</p>
+						<p class="textItem " style="top:66.782407%;left:75.617284%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							Brian To博士：我只是在實現自己的童年夢想。小時候，
+						</p>
+						<p class="textItem " style="top:68.402778%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							我常聽家父說他參與過的會議。那時候，我年僅四五歲，卻一
+						</p>
+						<p class="textItem " style="top:70.023148%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							直想為企業作貢獻，並成為商業顧問。我也雄心勃勃要成為教
+						</p>
+						<p class="textItem " style="top:71.643519%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							授，將知識傳給別人。同時，我又想加入軍隊！小時候，我懷
+						</p>
+						<p class="textItem " style="top:73.263889%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							有多個理想。今天，我如願以償地參與軍事、非牟利組織及學
+						</p>
+						<p class="textItem " style="top:74.884259%;left:74.228395%;width:16.049383%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							術界等項目，並為首席執行官和董事局成員擔任顧問。
+						</p>
+		</div>
+
+		<div class="footer">
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-1.html">1</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-12-13.html">12-13</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-14-15.html">14-15</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-16-17.html">16-17</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-18-19.html">18-19</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-20-21.html">20-21</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink currPage" href="./page-22-23.html">22-23</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-24-25.html">24-25</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-26-27.html">26-27</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-28-29.html">28-29</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-30-31.html">30-31</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-32-33.html">32-33</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-34-35.html">34-35</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-116.html">116</a>
+
+				<a style="color:#3E3E43;" class="footerLink" href="./flipbook.html" target="_blank">
+					<span id="poweredBy"></span>&nbsp;FlippingBook
+				</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+	        if (typeof BASIC_PAGE === 'undefined' && typeof BasicPage !== 'undefined' ){
+	            BASIC_PAGE = new BasicPage();
+	        }
+	        GALLERY_CONTENT = {};
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+

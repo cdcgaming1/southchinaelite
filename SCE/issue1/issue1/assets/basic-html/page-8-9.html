@@ -1,0 +1,753 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, minimum-scale=0.5, user-scalable=yes, maximum-scale=2.0, target-densitydpi=device-dpi" />
+
+    <title>South China Elite #1</title>
+
+    <meta charset="utf-8">
+
+    <meta name="robots" content="all"/>
+
+	<link href="./styles/style.css" type="text/css" rel="stylesheet" />
+	<link href="./styles/mobile.css" type="text/css" rel="stylesheet" />
+	
+    <script type="text/javascript">
+    CURRENT_PAGE = "8-9";
+    MAIN_PAGE     = "index.html";
+    FILES_FOLDER  = "issue1";
+    HTML5_PUBLICATION = true;
+
+
+    
+    </script>
+	
+	
+	<script src="./javascript/init.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        STATIC_FOLDER = ".";
+        DYNAMIC_FOLDER = "./..";
+
+        PUBLICATION_NAME = "South China Elite #1";
+
+        CURRENT_VERSION = "2.8.16";
+
+        LANGS = ['en','ar','de','es','fi','fr','he','it','ja','nl','no','pl','pt','ru','sv','tr','zh'];
+        PUBLICATION_TYPE = "catalog";
+        VIDEOS_INFO = {};
+
+    var main = function () {
+
+        loadScript('./javascript/localizator.js',function(){});
+
+        if (document.domain.indexOf('publ.com') != -1 || document.domain.indexOf('cld.bz') != -1 || document.domain.indexOf('cld.mobi') != -1 || document.domain.indexOf('cld.local') != -1) {
+            var staticServer = window.location.protocol === 'https:' ? 'https://d2ayihadozxfln.cloudfront.net' : ('http://static.' + window.location.hostname);
+            var url = staticServer + "/publication/" + CURRENT_VERSION + "/basic/cloud.js";
+            loadScript(url,function(){});
+        }
+
+    }
+
+    if (!!window.addEventListener) {
+        window.addEventListener('load', main);
+    } else {
+        window.attachEvent('onload', main);
+    }
+
+    function loadScript(url, callback){
+        var head = document.getElementsByTagName("head")[0];
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = url;
+        head.appendChild(script);
+        if (script.readyState){
+            script.onreadystatechange = function(){
+                if (script.readyState == "loaded" ||
+						script.readyState == "complete"){
+                    script.onreadystatechange = null;
+                    callback();
+                }
+            };
+        } else {
+            script.onload = function(){
+                callback();
+            };
+        }
+    }
+    </script>
+
+
+    <style type="text/css">
+        .areaLinkItem:hover, .contentItemHover:hover, .emptyImage:hover
+        {
+            	
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3FC7FF,endColorstr=#3FC7FF);
+	zoom:1;
+	
+	background:rgb(63,199,255);
+	background:rgba(63,199,255, 0.5);
+	
+
+        }
+
+
+
+    </style>
+</head>
+<body style="font-size: 20px; background-color: #ECF0F1;">
+	<div class="infoPopUp" id="infoPopUp" ></div>
+	<div class="popUp" id="popUp">
+		<a id="closeButton" class="closeButtonPopUp" href="#"></a>
+		<table class="popUpTable">
+			<tbody>
+				<tr>
+					<td>
+						<img alt="Cover" src="./../flash/pages/page0001_s.png" class="popUpCover" />
+					</td>
+					<td>
+						<h4 id="popupTitle">&nbsp;</h4>
+						<p id="popupText"></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="toolbar">
+		<ul class="zoomContainer" id="zoomContainer">
+			<li>
+				<a class="zoomInButton" id="zoomIn" href="#">
+					<img src="styles/zoomIn.png" alt="Zoom In" />
+				</a>
+			</li>
+			<li>
+				<a class="zoomOutButton" id="zoomOut" href="#">
+					<img src="styles/zoomOut.png" alt="Zoom Out" />
+				</a>
+			</li>
+		</ul>
+
+		
+		
+		<div class="toolbarButtons">
+		    
+				<ul class="downloadButton toolbarLink">
+					<li class="iconLi">
+						<img class="iconToolbar" src="styles/save.png" alt="Downloads" />
+                        <img class="iconToolbar mobile" src="styles/save-mobile.png" alt="Downloads" />
+					</li>
+						<li id="downloadPdf" class="downloadSubMenu">
+							<a id="downloadPdfLink" href="./../common/downloads/publication.pdf" target="_blank"></a>
+						</li>
+										                    					
+				</ul>
+		</div>
+
+		
+		
+
+			<a id="pagePrevArrow" class="toLeftButton toolbarLink internalLink" href="./page-6-7.html"><img class="iconToolbar" src="styles/previous.png" alt="Previous Page" /></a>
+        
+		<span class="pager"><span id="pageLabel"></span>&nbsp;8-9 / 116</span>
+
+				<a id="nextPageArrow" class="toRightButton toolbarLink internalLink" href="./page-10-11.html"><img class="iconToolbar" src="styles/next.png" alt="Next Page" /></a>
+
+		<ul class="sharingContainer">
+			<li>
+				<a class="facebookShare" id="facebookShare" href="#" target="_blank">
+                    <img src="styles/facebook_32.png" alt="Share on Facebook" />
+					<span id="facebookShareText" class="shareTitleMenu"></span>
+				</a>
+			</li>
+			<li>
+                <a class="twitterShare" id="twitterShare" href="#" target="_blank">
+                    <img src="styles/twitter_32.png" alt="Tweet" />
+                    <span id="twitterShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="linkedinShare" id="linkedinShare" href="#" target="_blank">
+                    <img src="styles/linkedin_32.png" alt="Share on LinkedIn" />
+                    <span id="linkedinShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="tumblrShare" id="tumblrShare" href="#" target="_blank">
+                    <img src="styles/tumblr_32.png" alt="Share on Tumblr" />
+                    <span id="tumblrShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="googleShare" id="googleShare" href="#" target="_blank">
+                    <img src="styles/google_32.png" alt="Share on Google+" />
+                    <span id="googleShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="mailShare" id="mailShare" href="#" target="_blank">
+                    <img src="styles/email_32.png" alt="E-mail" />
+                    <span id="mailShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="vkShare" id="vkShare" href="#" target="_blank">
+                    <img src="styles/vk_32.png" alt="Share on VK" />
+                    <span id="vkShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+		</ul>
+
+
+		<div class="verContainer" id="verContainer">
+			<span id="basicVersionTitle" class="basicInfoTitle"></span>
+			<a id="infoButton" class="toolbarLink info" href="#"><img class="iconInfo" src="styles/info.png" alt="Information" /></a>
+
+		</div>
+	</div>
+
+	<div class="mainFrame" id="mainFrame">
+
+		<a class="mobileMenuButton" id="mobileMenuButton">
+            <img src="styles/mobile-menu.png" alt="Show Menu" style="" />
+		</a>
+
+		<div class="mobileNav">
+					<a class="toLeftButton toolbarLink internalLink" href="./page-6-7.html"><img class="iconToolbar" src="styles/prev-mob.png" alt="Previous Page" /></a>
+			<span class="pager">8-9 / 116</span>
+					<a class="toRightButton toolbarLink internalLink" href="./page-10-11.html"><img class="iconToolbar" src="styles/next-mob.png" alt="Next Page" /></a>
+		</div>
+
+		<div id="pageContainer" class="pageContainer" style="width: 1296px; height: 864px; margin: 40px 0 0 -648px; background-color:#FFFFFF;">
+			<img alt="Page Background" src="./../common/page-substrates/page0005.jpg" style="width: 100%; height: 100%;">
+
+
+						<p class="textItem testString" style="top:93.750000%;left:94.598765%;width:0.462963%;height:1.504630%;font-size:0.500000em;color:#221F20;font-family:Abel;">
+							9
+						</p>
+						<p class="textItem " style="top:93.750000%;left:4.861111%;width:0.462963%;height:1.504630%;font-size:0.500000em;color:#221F20;font-family:Abel;">
+							8
+						</p>
+						<p class="textItem testString" style="top:5.671296%;left:4.629630%;width:4.938272%;height:1.620370%;font-size:0.600000em;color:#221F20;font-family:Fashion Didot;">
+							SOUTH CHINA ELITE
+						</p>
+						<p class="textItem " style="top:20.023148%;left:80.941358%;width:11.342593%;height:3.703704%;font-size:1.250000em;color:#FFFFFF;font-family:Abel;">
+							From the editor
+						</p>
+						<p class="textItem testString" style="top:23.958333%;left:84.567901%;width:7.716049%;height:2.893519%;font-size:1.250000em;color:#FFFFFF;font-family:STXihei;">
+							編者寄語
+						</p>
+						<p class="textItem testString" style="top:8.796296%;left:54.320988%;width:3.935185%;height:6.597222%;font-size:2.411150em;color:#221F20;font-family:Droid Serif;">
+							W
+						</p>
+						<p class="textItem " style="top:9.722222%;left:58.256173%;width:10.185185%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							elcome to the first ever issue of
+						</p>
+						<p class="textItem testString" style="top:9.722222%;left:68.518519%;width:3.935185%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<i>South China</i>
+						</p>
+						<p class="textItem " style="top:11.342593%;left:58.256173%;width:1.466049%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<i>Elite</i>
+						</p>
+						<p class="textItem " style="top:11.342593%;left:59.645062%;width:12.808642%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							. We’re absolutely delighted to have
+						</p>
+						<p class="textItem " style="top:12.962963%;left:58.256173%;width:14.274691%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							you as a reader and hope you enjoy SCE for
+						</p>
+						<p class="textItem " style="top:14.583333%;left:54.320988%;width:6.867284%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							many years to come.
+						</p>
+						<p class="textItem " style="top:16.203704%;left:55.864198%;width:5.941358%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<i>South China Elite</i>
+						</p>
+						<p class="textItem " style="top:16.203704%;left:61.882716%;width:10.570988%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							will showcase fascinating and
+						</p>
+						<p class="textItem " style="top:17.824074%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							extraordinary personalities from across the Greater
+						</p>
+						<p class="textItem " style="top:19.444444%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Bay area – from Hong Kong to Shenzhen to Guangzhou
+						</p>
+						<p class="textItem " style="top:21.064815%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							to Macau – and elsewhere in Guangdong Province and
+						</p>
+						<p class="textItem " style="top:22.685185%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							South China. We’ll feature people mainly from the
+						</p>
+						<p class="textItem " style="top:24.305556%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							world of business, but we’ll also showcase academics,
+						</p>
+						<p class="textItem " style="top:25.925926%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							entertainers and others making a valuable contribution
+						</p>
+						<p class="textItem " style="top:27.546296%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							in developing the economy in this region which is
+						</p>
+						<p class="textItem " style="top:29.166667%;left:54.320988%;width:13.503086%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							amongst the fastest growing in the world.
+						</p>
+						<p class="textItem " style="top:30.787037%;left:55.864198%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							I had the privilege of being in Beijing this March
+						</p>
+						<p class="textItem " style="top:32.407407%;left:54.320988%;width:3.703704%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							during the
+						</p>
+						<p class="textItem " style="top:32.407407%;left:58.410494%;width:3.086420%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<i>liang hui</i>
+						</p>
+						<p class="textItem " style="top:32.407407%;left:61.651235%;width:10.802469%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							– the annual plenary sessions
+						</p>
+						<p class="textItem " style="top:34.027778%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							of the National People’s Congress and the Chinese
+						</p>
+						<p class="textItem " style="top:35.648148%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							People’s Political Consultative Conference. It was there
+						</p>
+						<p class="textItem " style="top:37.268519%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							that Chinese Premier Li Keqiang renewed the push for
+						</p>
+						<p class="textItem " style="top:38.888889%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							greater integration and the Guangdong-Hong Kong-
+						</p>
+						<p class="textItem " style="top:40.509259%;left:54.320988%;width:11.111111%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Macau Greater Bay Area concept.
+						</p>
+						<p class="textItem " style="top:42.129630%;left:55.864198%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							There is no doubt the 21st century will be the
+						</p>
+						<p class="textItem " style="top:43.750000%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							“Asian century”, fuelled in a major way by South China.
+						</p>
+						<p class="textItem " style="top:45.370370%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Guangdong Province, Hong Kong, Macau and even
+						</p>
+						<p class="textItem " style="top:46.990741%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							the exciting Hengqin project personally supported by
+						</p>
+						<p class="textItem " style="top:48.611111%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							President Xi Jinping have crucial roles to play in this
+						</p>
+						<p class="textItem " style="top:50.231481%;left:54.320988%;width:3.935185%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							global shift.
+						</p>
+						<p class="textItem " style="top:51.851852%;left:55.864198%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							We are indeed privileged to have Senior Fellow of
+						</p>
+						<p class="textItem " style="top:53.472222%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							the Wharton School, Professor Dr Brian To grace the
+						</p>
+						<p class="textItem " style="top:55.092593%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							cover of our maiden issue. Despite holding no less than
+						</p>
+						<p class="textItem " style="top:56.712963%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							six post-graduate degrees fromsuch luminary institutions
+						</p>
+						<p class="textItem " style="top:58.333333%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							as Harvard and Oxford, Professor To is no “theoretical
+						</p>
+						<p class="textItem " style="top:59.953704%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							academic”. As a practice professor he travels the globe
+						</p>
+						<p class="textItem " style="top:61.574074%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							consulting to major Asian governments, militaries and
+						</p>
+						<p class="textItem " style="top:63.194444%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							corporations, coaching CEOs and global leaders and
+						</p>
+						<p class="textItem " style="top:64.814815%;left:54.320988%;width:9.413580%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							creating real economic value.
+						</p>
+						<p class="textItem " style="top:66.435185%;left:55.864198%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							As well as our cover story each issue focusing
+						</p>
+						<p class="textItem " style="top:68.055556%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							on one particular personality making a major
+						</p>
+						<p class="textItem " style="top:69.675926%;left:54.320988%;width:9.027778%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							contribution to the region,
+						</p>
+						<p class="textItem " style="top:69.675926%;left:63.580247%;width:5.787037%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<i>South China Elite</i>
+						</p>
+						<p class="textItem " style="top:69.675926%;left:69.598765%;width:2.854938%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							will also
+						</p>
+						<p class="textItem " style="top:71.296296%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							have entertaining and informative articles contributed
+						</p>
+						<p class="textItem " style="top:72.916667%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							by some of the most eminent experts in the region, in
+						</p>
+						<p class="textItem " style="top:74.537037%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							our Business, Insights and Lifestyle sections. We hope
+						</p>
+						<p class="textItem " style="top:76.157407%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							these inform your business decisions and in turn grow
+						</p>
+						<p class="textItem " style="top:77.777778%;left:54.320988%;width:8.950617%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							your own personal wealth!
+						</p>
+						<p class="textItem " style="top:79.398148%;left:55.864198%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Our company, O MEDIA, is no stranger to
+						</p>
+						<p class="textItem " style="top:81.018519%;left:54.320988%;width:11.033951%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							publishing. We currently publish
+						</p>
+						<p class="textItem " style="top:81.018519%;left:65.509259%;width:6.944444%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<i>Inside Asian Gaming,</i>
+						</p>
+						<p class="textItem " style="top:82.638889%;left:54.320988%;width:1.851852%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<i>WGM</i>
+						</p>
+						<p class="textItem " style="top:82.638889%;left:56.327160%;width:1.311728%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							and
+						</p>
+						<p class="textItem " style="top:82.638889%;left:57.870370%;width:3.009259%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<i>High Life</i>
+						</p>
+						<p class="textItem " style="top:82.638889%;left:60.879630%;width:11.651235%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							, which first hit the streets in 2005,
+						</p>
+						<p class="textItem " style="top:84.259259%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							2009 and 2016 respectively – and we have more digital
+						</p>
+						<p class="textItem " style="top:85.879630%;left:54.320988%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							and print media offerings planned for launch over the
+						</p>
+						<p class="textItem " style="top:87.500000%;left:54.320988%;width:7.175926%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							next 18 months or so.
+						</p>
+						<p class="textItem " style="top:89.120370%;left:55.864198%;width:15.354938%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							As a wise man once said, Learn from the Elite!
+						</p>
+						<p class="textItem " style="top:92.361111%;left:67.206790%;width:5.401235%;height:1.273148%;font-size:0.456942em;color:#221F20;font-family:Droid Serif;">
+							Andrew W Scott
+						</p>
+						<p class="textItem " style="top:93.981481%;left:63.966049%;width:8.564815%;height:1.273148%;font-size:0.456942em;color:#221F20;font-family:Droid Serif;">
+							Editor-in-Chief , May 2017
+						</p>
+						<p class="textItem testString" style="top:31.597222%;left:74.228395%;width:3.935185%;height:5.902778%;font-size:2.548000em;color:#221F20;font-family:Sim Sun;">
+							歡
+						</p>
+						<p class="textItem " style="top:32.407407%;left:78.240741%;width:2.469136%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							迎閱讀
+						</p>
+						<p class="textItem " style="top:32.407407%;left:80.864198%;width:1.311728%;height:1.273148%;font-size:0.507714em;color:#221F20;font-family:Sim Sun;">
+							SCE
+						</p>
+						<p class="textItem " style="top:32.407407%;left:82.021605%;width:8.179012%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							創刊號。對於閣下成為
+						</p>
+						<p class="textItem " style="top:32.407407%;left:90.354938%;width:1.311728%;height:1.273148%;font-size:0.507714em;color:#221F20;font-family:Sim Sun;">
+							SCE
+						</p>
+						<p class="textItem " style="top:32.407407%;left:91.512346%;width:0.771605%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							讀
+						</p>
+						<p class="textItem " style="top:34.027778%;left:78.240741%;width:14.120370%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							者，我們深感榮幸，亦希望閣下往後繼
+						</p>
+						<p class="textItem " style="top:35.648148%;left:78.240741%;width:2.391975%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							續閱讀
+						</p>
+						<p class="textItem " style="top:35.648148%;left:80.709877%;width:1.234568%;height:1.273148%;font-size:0.507714em;color:#221F20;font-family:Sim Sun;">
+							SCE
+						</p>
+						<p class="textItem " style="top:35.648148%;left:81.867284%;width:0.771605%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							。
+						</p>
+						<p class="textItem " style="top:37.268519%;left:75.848765%;width:1.234568%;height:1.273148%;font-size:0.507714em;color:#221F20;font-family:Sim Sun;">
+							SCE
+						</p>
+						<p class="textItem " style="top:37.268519%;left:77.006173%;width:15.354938%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							為讀者們呈獻粵港澳大灣區出類拔萃的人事
+						</p>
+						<p class="textItem " style="top:38.888889%;left:74.228395%;width:18.132716%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							物，當中有來自香港、深圳、廣州、澳門的，也有
+						</p>
+						<p class="textItem " style="top:40.509259%;left:74.228395%;width:18.132716%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							來自整個廣東省及南華地區各地方的。我們採訪的
+						</p>
+						<p class="textItem " style="top:42.129630%;left:74.228395%;width:18.132716%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							對象主要來自商界，但亦有在這全球其中一個經濟
+						</p>
+						<p class="textItem " style="top:43.750000%;left:74.228395%;width:18.132716%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							增長最快的地區內，作出寶貴貢獻的學術界人士、
+						</p>
+						<p class="textItem " style="top:45.370370%;left:74.228395%;width:9.567901%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							藝人，以及其他業界人士。
+						</p>
+						<p class="textItem " style="top:46.990741%;left:75.694444%;width:16.589506%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							本年三月，本人有幸參與在北京舉行的全國人
+						</p>
+						<p class="textItem " style="top:48.611111%;left:74.228395%;width:18.132716%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							民代表大會會議和中國人民政治協商會議全國委員
+						</p>
+						<p class="textItem " style="top:50.231481%;left:74.228395%;width:18.132716%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							會會議。兩會上，總理李克強表示國家將加強推動
+						</p>
+						<p class="textItem " style="top:51.851852%;left:74.228395%;width:11.111111%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							粵港澳大灣區整合發展的概念。
+						</p>
+						<p class="textItem " style="top:53.472222%;left:75.694444%;width:16.589506%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							在南華地區的推動下，21世紀將毫無疑問成為
+						</p>
+						<p class="textItem " style="top:55.092593%;left:74.228395%;width:18.132716%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							「亞洲的世紀」。廣東省、香港、澳門，甚至主席
+						</p>
+						<p class="textItem " style="top:56.712963%;left:74.228395%;width:18.132716%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							習近平親自支持的橫琴項目，都會在全球經濟重心
+						</p>
+						<p class="textItem " style="top:58.333333%;left:74.228395%;width:13.503086%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							轉移的過程中，扮演舉足輕重的角色。
+						</p>
+						<p class="textItem " style="top:59.953704%;left:75.848765%;width:1.157407%;height:1.273148%;font-size:0.507714em;color:#221F20;font-family:Sim Sun;">
+							SCE
+						</p>
+						<p class="textItem " style="top:59.953704%;left:76.851852%;width:15.432099%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							很榮幸邀得賓夕凡尼亞大學禾頓商學院資深研
+						</p>
+						<p class="textItem " style="top:61.574074%;left:74.228395%;width:18.132716%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							究員Brian To教授，成為我們的創刊號封面人物。雖然
+						</p>
+						<p class="textItem " style="top:63.194444%;left:74.228395%;width:18.132716%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							Brian To教授擁有多於六個由哈佛及牛津等著名大學頒
+						</p>
+						<p class="textItem " style="top:64.814815%;left:74.228395%;width:18.132716%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							授的研究生學位，但是他絕非一名「理論派學者」。
+						</p>
+						<p class="textItem " style="top:66.435185%;left:74.228395%;width:18.132716%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							作為實踐型教授，他足跡遍布世界各地，為亞洲多國
+						</p>
+						<p class="textItem " style="top:68.055556%;left:74.228395%;width:18.132716%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							政府、軍隊及企業提供策略性建議，亦指導多位首席
+						</p>
+						<p class="textItem " style="top:69.675926%;left:74.228395%;width:16.666667%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							執行官及全球領導人，從而創造確實的經濟價值。
+						</p>
+						<p class="textItem " style="top:71.296296%;left:75.694444%;width:15.354938%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							除了專訪於本地區貢獻良多的封面人物外，
+						</p>
+						<p class="textItem " style="top:71.296296%;left:91.203704%;width:1.234568%;height:1.273148%;font-size:0.507714em;color:#221F20;font-family:Sim Sun;">
+							SCE
+						</p>
+						<p class="textItem " style="top:72.916667%;left:74.228395%;width:10.725309%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							還邀得區內最卓越的專家，在
+						</p>
+						<p class="textItem " style="top:72.916667%;left:85.030864%;width:1.620370%;height:1.273148%;font-size:0.507714em;color:#221F20;font-family:Sim Sun;">
+							商業
+						</p>
+						<p class="textItem " style="top:72.916667%;left:86.574074%;width:0.771605%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							、
+						</p>
+						<p class="textItem " style="top:72.916667%;left:87.500000%;width:1.620370%;height:1.273148%;font-size:0.507714em;color:#221F20;font-family:Sim Sun;">
+							見解
+						</p>
+						<p class="textItem " style="top:72.916667%;left:89.043210%;width:0.771605%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							及
+						</p>
+						<p class="textItem " style="top:72.916667%;left:89.969136%;width:1.620370%;height:1.273148%;font-size:0.507714em;color:#221F20;font-family:Sim Sun;">
+							生活
+						</p>
+						<p class="textItem " style="top:72.916667%;left:91.512346%;width:0.771605%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							等
+						</p>
+						<p class="textItem " style="top:74.537037%;left:74.228395%;width:10.416667%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							欄目撰寫文章。我們希望籍著
+						</p>
+						<p class="textItem " style="top:74.537037%;left:84.799383%;width:1.234568%;height:1.273148%;font-size:0.507714em;color:#221F20;font-family:Sim Sun;">
+							SCE
+						</p>
+						<p class="textItem " style="top:74.537037%;left:85.879630%;width:6.404321%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							的專題，為閣下帶
+						</p>
+						<p class="textItem " style="top:76.157407%;left:74.228395%;width:18.132716%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							來有助作出商業決定的重要資訊，並從而增加個人
+						</p>
+						<p class="textItem " style="top:77.777778%;left:74.228395%;width:2.391975%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							財富！
+						</p>
+						<p class="textItem " style="top:79.398148%;left:75.848765%;width:1.157407%;height:1.273148%;font-size:0.507714em;color:#221F20;font-family:Sim Sun;">
+							SCE
+						</p>
+						<p class="textItem " style="top:79.398148%;left:76.851852%;width:15.432099%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							的母公司澳傳媒，在傳媒及出版方面擁有豐富
+						</p>
+						<p class="textItem " style="top:81.018519%;left:74.228395%;width:18.132716%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							經驗，出版刊物包括分別於2005、2009及2016年創立
+						</p>
+						<p class="textItem " style="top:82.638889%;left:74.228395%;width:18.132716%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							的《Inside Asian Gaming》、《環球博彩》及《品》
+						</p>
+						<p class="textItem " style="top:84.259259%;left:74.228395%;width:18.132716%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							等。在未來18個月內，我們將會推出更多數碼媒體及
+						</p>
+						<p class="textItem " style="top:85.879630%;left:74.228395%;width:3.858025%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							印刷產品。
+						</p>
+						<p class="textItem " style="top:87.500000%;left:75.694444%;width:10.339506%;height:1.157407%;font-size:0.500000em;color:#221F20;font-family:Sim Sun;">
+							一如智者所言︰向精英學習﹗
+						</p>
+						<p class="textItem " style="top:90.740741%;left:90.817901%;width:1.620370%;height:1.273148%;font-size:0.507714em;color:#221F20;font-family:Sim Sun;">
+							卓奕
+						</p>
+						<p class="textItem " style="top:92.361111%;left:88.811728%;width:3.626543%;height:1.273148%;font-size:0.507714em;color:#221F20;font-family:Sim Sun;">
+							2017年5月
+						</p>
+						<p class="textItem testString" style="top:47.453704%;left:34.567901%;width:4.398148%;height:1.620370%;font-size:0.450000em;color:#221F20;font-family:Fira Sans Condensed;">
+							BEN BLASCHKE
+						</p>
+						<p class="textItem testString" style="top:47.569444%;left:39.120370%;width:2.083333%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							本思齊
+						</p>
+						<p class="textItem testString" style="top:48.958333%;left:34.567901%;width:6.095679%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<b>Managing Editor</b>
+						</p>
+						<p class="textItem testString" style="top:48.958333%;left:40.740741%;width:2.777778%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							執行編輯
+						</p>
+						<p class="textItem " style="top:47.453704%;left:7.638889%;width:4.552469%;height:1.620370%;font-size:0.450000em;color:#221F20;font-family:Fira Sans Condensed;">
+							ANDREW SCOTT
+						</p>
+						<p class="textItem " style="top:47.569444%;left:12.345679%;width:1.388889%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							卓奕
+						</p>
+						<p class="textItem " style="top:48.958333%;left:7.638889%;width:5.478395%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<b>Editor-in-Chief</b>
+						</p>
+						<p class="textItem " style="top:48.958333%;left:13.194444%;width:1.388889%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							主編
+						</p>
+						<p class="textItem " style="top:47.453704%;left:21.064815%;width:3.935185%;height:1.620370%;font-size:0.450000em;color:#221F20;font-family:Fira Sans Condensed;">
+							EVELYN CHAN
+						</p>
+						<p class="textItem " style="top:47.569444%;left:25.154321%;width:2.083333%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							陳廸汶
+						</p>
+						<p class="textItem " style="top:48.958333%;left:21.064815%;width:7.716049%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<b>Chief Content Officer</b>
+						</p>
+						<p class="textItem " style="top:48.958333%;left:28.935185%;width:2.777778%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							編輯總監
+						</p>
+						<p class="textItem " style="top:73.842593%;left:7.638889%;width:3.858025%;height:1.620370%;font-size:0.450000em;color:#221F20;font-family:Fira Sans Condensed;">
+							RAQUEL DIAS
+						</p>
+						<p class="textItem " style="top:73.958333%;left:11.651235%;width:2.083333%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							戴樂瑩
+						</p>
+						<p class="textItem " style="top:75.347222%;left:7.638889%;width:5.092593%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<b>Deputy Editor</b>
+						</p>
+						<p class="textItem " style="top:75.347222%;left:12.808642%;width:2.083333%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							副編輯
+						</p>
+						<p class="textItem " style="top:73.842593%;left:21.064815%;width:3.163580%;height:1.620370%;font-size:0.450000em;color:#221F20;font-family:Fira Sans Condensed;">
+							SOPHIE HU
+						</p>
+						<p class="textItem " style="top:73.958333%;left:24.382716%;width:2.083333%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							户媛媛
+						</p>
+						<p class="textItem " style="top:75.347222%;left:21.064815%;width:8.950617%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<b>Chinese Editor and Chief</b>
+						</p>
+						<p class="textItem " style="top:76.736111%;left:21.064815%;width:3.935185%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<b>Translator</b>
+						</p>
+						<p class="textItem " style="top:76.736111%;left:25.154321%;width:4.861111%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							中文編輯及主編
+						</p>
+						<p class="textItem " style="top:73.842593%;left:34.567901%;width:4.552469%;height:1.620370%;font-size:0.450000em;color:#221F20;font-family:Fira Sans Condensed;">
+							SANDRA NORTE
+						</p>
+						<p class="textItem " style="top:75.347222%;left:34.567901%;width:6.327160%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<b>Graphic Designer</b>
+						</p>
+						<p class="textItem " style="top:75.347222%;left:40.972222%;width:3.472222%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							平面設計師
+						</p>
+						<p class="textItem " style="top:16.666667%;left:18.518519%;width:10.879630%;height:2.777778%;font-size:1.000000em;color:#FFFFFF;font-family:Droid Serif;">
+							Editorial Team
+						</p>
+						<p class="textItem " style="top:17.013889%;left:29.783951%;width:4.938272%;height:2.430556%;font-size:0.800000em;color:#FFFFFF;font-family:Microsoft Jheng Hei Bold;">
+							編輯團隊
+						</p>
+						<p class="textItem " style="top:83.449074%;left:11.882716%;width:6.404321%;height:1.851852%;font-size:0.600000em;color:#88292C;font-family:Abel;">
+							PHOTOGRAPHERS
+						</p>
+						<p class="textItem testString" style="top:83.680556%;left:18.672840%;width:2.777778%;height:1.388889%;font-size:0.600000em;color:#88292C;font-family:STHeiti;">
+							攝影師
+						</p>
+						<p class="textItem " style="top:83.449074%;left:29.861111%;width:9.259259%;height:1.851852%;font-size:0.600000em;color:#88292C;font-family:Abel;">
+							ASSISTANT TRANSLATORS
+						</p>
+						<p class="textItem " style="top:83.680556%;left:39.506173%;width:3.703704%;height:1.388889%;font-size:0.600000em;color:#88292C;font-family:STHeiti;">
+							助理翻譯
+						</p>
+						<p class="textItem " style="top:87.731481%;left:11.959877%;width:3.009259%;height:1.620370%;font-size:0.450000em;color:#221F20;font-family:Fira Sans Condensed;">
+							WILSON LI
+						</p>
+						<p class="textItem " style="top:87.847222%;left:15.123457%;width:2.083333%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							李維遜
+						</p>
+						<p class="textItem " style="top:89.120370%;left:11.959877%;width:5.632716%;height:1.620370%;font-size:0.450000em;color:#221F20;font-family:Fira Sans Condensed;">
+							EDUARDO MARTINS
+						</p>
+						<p class="textItem " style="top:87.731481%;left:29.861111%;width:4.243827%;height:1.620370%;font-size:0.450000em;color:#221F20;font-family:Fira Sans Condensed;">
+							DAPHNE HONG
+						</p>
+						<p class="textItem " style="top:87.847222%;left:34.259259%;width:2.083333%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							洪毅瑩
+						</p>
+						<p class="textItem " style="top:89.120370%;left:29.861111%;width:3.163580%;height:1.620370%;font-size:0.450000em;color:#221F20;font-family:Fira Sans Condensed;">
+							LEANNE LU
+						</p>
+						<p class="textItem " style="top:89.236111%;left:33.101852%;width:1.388889%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Microsoft Jheng Hei Regular;">
+							陸逸
+						</p>
+		</div>
+
+		<div class="footer">
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-1.html">1</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-2-3.html">2-3</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-4-5.html">4-5</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-6-7.html">6-7</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink currPage" href="./page-8-9.html">8-9</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-10-11.html">10-11</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-12-13.html">12-13</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-14-15.html">14-15</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-16-17.html">16-17</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-18-19.html">18-19</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-20-21.html">20-21</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-22-23.html">22-23</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-116.html">116</a>
+
+				<a style="color:#3E3E43;" class="footerLink" href="./flipbook.html" target="_blank">
+					<span id="poweredBy"></span>&nbsp;FlippingBook
+				</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+	        if (typeof BASIC_PAGE === 'undefined' && typeof BasicPage !== 'undefined' ){
+	            BASIC_PAGE = new BasicPage();
+	        }
+	        GALLERY_CONTENT = {};
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+

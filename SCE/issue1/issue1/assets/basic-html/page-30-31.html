@@ -1,0 +1,488 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, minimum-scale=0.5, user-scalable=yes, maximum-scale=2.0, target-densitydpi=device-dpi" />
+
+    <title>South China Elite #1</title>
+
+    <meta charset="utf-8">
+
+    <meta name="robots" content="all"/>
+
+	<link href="./styles/style.css" type="text/css" rel="stylesheet" />
+	<link href="./styles/mobile.css" type="text/css" rel="stylesheet" />
+	
+    <script type="text/javascript">
+    CURRENT_PAGE = "30-31";
+    MAIN_PAGE     = "index.html";
+    FILES_FOLDER  = "issue1";
+    HTML5_PUBLICATION = true;
+
+
+    
+    </script>
+	
+	
+	<script src="./javascript/init.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        STATIC_FOLDER = ".";
+        DYNAMIC_FOLDER = "./..";
+
+        PUBLICATION_NAME = "South China Elite #1";
+
+        CURRENT_VERSION = "2.8.16";
+
+        LANGS = ['en','ar','de','es','fi','fr','he','it','ja','nl','no','pl','pt','ru','sv','tr','zh'];
+        PUBLICATION_TYPE = "catalog";
+        VIDEOS_INFO = {};
+
+    var main = function () {
+
+        loadScript('./javascript/localizator.js',function(){});
+
+        if (document.domain.indexOf('publ.com') != -1 || document.domain.indexOf('cld.bz') != -1 || document.domain.indexOf('cld.mobi') != -1 || document.domain.indexOf('cld.local') != -1) {
+            var staticServer = window.location.protocol === 'https:' ? 'https://d2ayihadozxfln.cloudfront.net' : ('http://static.' + window.location.hostname);
+            var url = staticServer + "/publication/" + CURRENT_VERSION + "/basic/cloud.js";
+            loadScript(url,function(){});
+        }
+
+    }
+
+    if (!!window.addEventListener) {
+        window.addEventListener('load', main);
+    } else {
+        window.attachEvent('onload', main);
+    }
+
+    function loadScript(url, callback){
+        var head = document.getElementsByTagName("head")[0];
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = url;
+        head.appendChild(script);
+        if (script.readyState){
+            script.onreadystatechange = function(){
+                if (script.readyState == "loaded" ||
+						script.readyState == "complete"){
+                    script.onreadystatechange = null;
+                    callback();
+                }
+            };
+        } else {
+            script.onload = function(){
+                callback();
+            };
+        }
+    }
+    </script>
+
+
+    <style type="text/css">
+        .areaLinkItem:hover, .contentItemHover:hover, .emptyImage:hover
+        {
+            	
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3FC7FF,endColorstr=#3FC7FF);
+	zoom:1;
+	
+	background:rgb(63,199,255);
+	background:rgba(63,199,255, 0.5);
+	
+
+        }
+
+
+
+    </style>
+</head>
+<body style="font-size: 20px; background-color: #ECF0F1;">
+	<div class="infoPopUp" id="infoPopUp" ></div>
+	<div class="popUp" id="popUp">
+		<a id="closeButton" class="closeButtonPopUp" href="#"></a>
+		<table class="popUpTable">
+			<tbody>
+				<tr>
+					<td>
+						<img alt="Cover" src="./../flash/pages/page0001_s.png" class="popUpCover" />
+					</td>
+					<td>
+						<h4 id="popupTitle">&nbsp;</h4>
+						<p id="popupText"></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="toolbar">
+		<ul class="zoomContainer" id="zoomContainer">
+			<li>
+				<a class="zoomInButton" id="zoomIn" href="#">
+					<img src="styles/zoomIn.png" alt="Zoom In" />
+				</a>
+			</li>
+			<li>
+				<a class="zoomOutButton" id="zoomOut" href="#">
+					<img src="styles/zoomOut.png" alt="Zoom Out" />
+				</a>
+			</li>
+		</ul>
+
+		
+		
+		<div class="toolbarButtons">
+		    
+				<ul class="downloadButton toolbarLink">
+					<li class="iconLi">
+						<img class="iconToolbar" src="styles/save.png" alt="Downloads" />
+                        <img class="iconToolbar mobile" src="styles/save-mobile.png" alt="Downloads" />
+					</li>
+						<li id="downloadPdf" class="downloadSubMenu">
+							<a id="downloadPdfLink" href="./../common/downloads/publication.pdf" target="_blank"></a>
+						</li>
+										                    					
+				</ul>
+		</div>
+
+		
+		
+
+			<a id="pagePrevArrow" class="toLeftButton toolbarLink internalLink" href="./page-28-29.html"><img class="iconToolbar" src="styles/previous.png" alt="Previous Page" /></a>
+        
+		<span class="pager"><span id="pageLabel"></span>&nbsp;30-31 / 116</span>
+
+				<a id="nextPageArrow" class="toRightButton toolbarLink internalLink" href="./page-32-33.html"><img class="iconToolbar" src="styles/next.png" alt="Next Page" /></a>
+
+		<ul class="sharingContainer">
+			<li>
+				<a class="facebookShare" id="facebookShare" href="#" target="_blank">
+                    <img src="styles/facebook_32.png" alt="Share on Facebook" />
+					<span id="facebookShareText" class="shareTitleMenu"></span>
+				</a>
+			</li>
+			<li>
+                <a class="twitterShare" id="twitterShare" href="#" target="_blank">
+                    <img src="styles/twitter_32.png" alt="Tweet" />
+                    <span id="twitterShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="linkedinShare" id="linkedinShare" href="#" target="_blank">
+                    <img src="styles/linkedin_32.png" alt="Share on LinkedIn" />
+                    <span id="linkedinShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="tumblrShare" id="tumblrShare" href="#" target="_blank">
+                    <img src="styles/tumblr_32.png" alt="Share on Tumblr" />
+                    <span id="tumblrShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="googleShare" id="googleShare" href="#" target="_blank">
+                    <img src="styles/google_32.png" alt="Share on Google+" />
+                    <span id="googleShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="mailShare" id="mailShare" href="#" target="_blank">
+                    <img src="styles/email_32.png" alt="E-mail" />
+                    <span id="mailShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="vkShare" id="vkShare" href="#" target="_blank">
+                    <img src="styles/vk_32.png" alt="Share on VK" />
+                    <span id="vkShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+		</ul>
+
+
+		<div class="verContainer" id="verContainer">
+			<span id="basicVersionTitle" class="basicInfoTitle"></span>
+			<a id="infoButton" class="toolbarLink info" href="#"><img class="iconInfo" src="styles/info.png" alt="Information" /></a>
+
+		</div>
+	</div>
+
+	<div class="mainFrame" id="mainFrame">
+
+		<a class="mobileMenuButton" id="mobileMenuButton">
+            <img src="styles/mobile-menu.png" alt="Show Menu" style="" />
+		</a>
+
+		<div class="mobileNav">
+					<a class="toLeftButton toolbarLink internalLink" href="./page-28-29.html"><img class="iconToolbar" src="styles/prev-mob.png" alt="Previous Page" /></a>
+			<span class="pager">30-31 / 116</span>
+					<a class="toRightButton toolbarLink internalLink" href="./page-32-33.html"><img class="iconToolbar" src="styles/next-mob.png" alt="Next Page" /></a>
+		</div>
+
+		<div id="pageContainer" class="pageContainer" style="width: 1296px; height: 864px; margin: 40px 0 0 -648px; background-color:#FFFFFF;">
+			<img alt="Page Background" src="./../common/page-substrates/page0016.jpg" style="width: 100%; height: 100%;">
+
+
+						<p class="textItem testString" style="top:93.750000%;left:94.598765%;width:0.848765%;height:1.504630%;font-size:0.500000em;color:#221F20;font-family:Abel;">
+							31
+						</p>
+						<p class="textItem " style="top:93.750000%;left:4.475309%;width:0.848765%;height:1.504630%;font-size:0.500000em;color:#221F20;font-family:Abel;">
+							30
+						</p>
+						<p class="textItem testString" style="top:5.671296%;left:4.629630%;width:4.938272%;height:1.620370%;font-size:0.600000em;color:#221F20;font-family:Fashion Didot;">
+							SOUTH CHINA ELITE
+						</p>
+						<p class="textItem testString" style="top:21.759259%;left:9.182099%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							The additional compliance costs, plus the
+						</p>
+						<p class="textItem " style="top:23.379630%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							requirements to strengthen internal IT capabilities to
+						</p>
+						<p class="textItem " style="top:25.000000%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							capture any undesirable activities of clients made the
+						</p>
+						<p class="textItem " style="top:26.620370%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							private banking and wealth management business for
+						</p>
+						<p class="textItem " style="top:28.240741%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							the smaller banks and units unprofitable.  “Red flags”
+						</p>
+						<p class="textItem " style="top:29.861111%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							and improved KYC (Know Your Customer) profiles
+						</p>
+						<p class="textItem " style="top:31.481481%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							added tremendous costs to the banks. Many banks
+						</p>
+						<p class="textItem " style="top:33.101852%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							found it futile to continuously appease the insatiable
+						</p>
+						<p class="textItem " style="top:34.722222%;left:7.638889%;width:3.626543%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							regulators.
+						</p>
+						<p class="textItem " style="top:36.342593%;left:9.182099%;width:14.043210%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							The prognosis by the author in his book
+						</p>
+						<p class="textItem testString" style="top:36.342593%;left:23.456790%;width:2.314815%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<i>Private</i>
+						</p>
+						<p class="textItem " style="top:37.962963%;left:7.638889%;width:18.132716%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<i>Banking &amp; Wealth Management in Asia – An Insider</i>
+						</p>
+						<p class="textItem " style="top:39.583333%;left:7.638889%;width:3.703704%;height:1.388889%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<i>Perspective</i>
+						</p>
+						<p class="textItem " style="top:39.583333%;left:11.419753%;width:14.274691%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							(2014, Warrior Books) that there would
+						</p>
+						<p class="textItem " style="top:41.203704%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							be only two categories of private banking and wealth
+						</p>
+						<p class="textItem " style="top:42.824074%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							management banks which would survive the current
+						</p>
+						<p class="textItem " style="top:44.444444%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							and future environment is unfolding. The private
+						</p>
+						<p class="textItem " style="top:46.064815%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							banking and wealth management businesses of Credit
+						</p>
+						<p class="textItem " style="top:47.685185%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Agricole, ING, Societe Generale, Barclays, Coutts and
+						</p>
+						<p class="textItem " style="top:49.305556%;left:7.638889%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							ABN AMRO have been sold. A few more in the middle-
+						</p>
+						<p class="textItem " style="top:50.925926%;left:7.638889%;width:14.891975%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							tier will become antiquity in the near future.
+						</p>
+						<p class="textItem " style="top:52.546296%;left:9.182099%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Eventually, the two types of private banking and
+						</p>
+						<p class="textItem testString" style="top:56.944444%;left:9.027778%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							額外的法規審查成本，以及強化監察客戶不當行為的
+						</p>
+						<p class="textItem " style="top:58.564815%;left:7.638889%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							內部科技所引致的支出，均令小型銀行以及部機構的私人銀
+						</p>
+						<p class="textItem " style="top:60.185185%;left:7.638889%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							行與財富管理業務變得無利可圖。風險警示及「認識你的客
+						</p>
+						<p class="textItem " style="top:61.805556%;left:7.638889%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							戶」資料系統，令銀行的成本激增，以至不少銀行認為，不
+						</p>
+						<p class="textItem " style="top:63.425926%;left:7.638889%;width:15.277778%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							斷滿足監管機構日新月異的要求，實在徒勞無功。
+						</p>
+						<p class="textItem " style="top:65.046296%;left:9.027778%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							筆者在《亞洲私人銀行與財富管理——內行人觀點》
+						</p>
+						<p class="textItem " style="top:66.666667%;left:7.638889%;width:0.694444%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							（
+						</p>
+						<p class="textItem " style="top:66.666667%;left:8.410494%;width:17.438272%;height:1.157407%;font-size:0.456942em;color:#221F20;font-family:Sim Sun;">
+							Private Banking &amp; Wealth Management in Asia – An
+						</p>
+						<p class="textItem " style="top:68.287037%;left:7.716049%;width:6.481481%;height:1.157407%;font-size:0.456942em;color:#221F20;font-family:Sim Sun;">
+							Insider Perspective
+						</p>
+						<p class="textItem " style="top:68.287037%;left:14.043210%;width:11.728395%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							）（2014年， Warrior Books出版）一
+						</p>
+						<p class="textItem " style="top:69.907407%;left:7.638889%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							書中，預期只有兩類私人銀行與財富管理機構能在當前以及
+						</p>
+						<p class="textItem " style="top:71.527778%;left:7.638889%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							未來的環境下生存。這預測正逐漸實現——法國農業信貸銀
+						</p>
+						<p class="textItem " style="top:73.148148%;left:7.638889%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							行、ING集團、興業銀行、巴克萊銀行、Coutts銀行以及荷蘭
+						</p>
+						<p class="textItem " style="top:74.768519%;left:7.638889%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							銀行的私人銀行與財富管理業務，均已被出售，而另外數個
+						</p>
+						<p class="textItem " style="top:76.388889%;left:7.638889%;width:12.191358%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							中型銀行的相關部門，亦快將成為歷史。
+						</p>
+						<p class="textItem " style="top:21.759259%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							wealthmanagement banks that can ride out the current
+						</p>
+						<p class="textItem " style="top:23.379630%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							storm are the mega global banks such as UBS, Credit
+						</p>
+						<p class="textItem " style="top:25.000000%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Suisse, Citibank and JP Morgan; and the boutique or
+						</p>
+						<p class="textItem " style="top:26.620370%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							“pure-play” banks such as Pictet, LGT, EFG and Union
+						</p>
+						<p class="textItem " style="top:28.240741%;left:27.469136%;width:5.478395%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Bancaire Privee.
+						</p>
+						<p class="textItem " style="top:29.861111%;left:29.012346%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							This scenario will prevail until the pendulum of
+						</p>
+						<p class="textItem " style="top:31.481481%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							regulatory bearings moves from extreme tightness
+						</p>
+						<p class="textItem " style="top:33.101852%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							to the pivotal center. But alas, the new CRS (Common
+						</p>
+						<p class="textItem " style="top:34.722222%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Reporting System) signed by Hong Kong, Singapore,
+						</p>
+						<p class="textItem " style="top:36.342593%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							China and most Southeast Asian counties will come into
+						</p>
+						<p class="textItem " style="top:37.962963%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							effect in 2018.  This would cast the industry into another
+						</p>
+						<p class="textItem " style="top:39.583333%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							impasse, where all the banks and financial institutions
+						</p>
+						<p class="textItem " style="top:41.203704%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							are required to file client-sensitive data to the CRS. This
+						</p>
+						<p class="textItem " style="top:42.824074%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							database would be shared internationally to prevent
+						</p>
+						<p class="textItem " style="top:44.444444%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							money laundering activities and any undesirable
+						</p>
+						<p class="textItem " style="top:46.064815%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							movements of funds.  The final ramifications are still
+						</p>
+						<p class="textItem " style="top:47.685185%;left:27.469136%;width:3.395062%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							unknown.
+						</p>
+						<p class="textItem " style="top:49.305556%;left:29.012346%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Is it worthwhile, then, to remain in the private
+						</p>
+						<p class="textItem " style="top:50.925926%;left:27.469136%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							banking and wealth management business or call it a
+						</p>
+						<p class="textItem " style="top:52.546296%;left:27.469136%;width:13.966049%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							day? Does the industry still have a future?
+						</p>
+						<p class="textItem " style="top:56.944444%;left:28.935185%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							最後，兩類能安然渡過當前風暴的私人銀行與財富管
+						</p>
+						<p class="textItem " style="top:58.564815%;left:27.469136%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							理機構，將是全球性大型銀行如瑞士銀行、瑞士信貸、花
+						</p>
+						<p class="textItem " style="top:60.185185%;left:27.469136%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							旗銀行和摩根大通等，以及如Pictet、LGT、EFG及Union
+						</p>
+						<p class="textItem " style="top:61.805556%;left:27.469136%;width:15.663580%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							Bancaire Priv&#233;e等小型精品或「單一業務」機構。
+						</p>
+						<p class="textItem " style="top:63.425926%;left:28.935185%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							在監管的發展趨勢從矯枉過正回歸至正常力度前，此情
+						</p>
+						<p class="textItem " style="top:65.046296%;left:27.469136%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							況將會持續。然而，香港、新加坡、中國以及大部分東南亞國
+						</p>
+						<p class="textItem " style="top:66.666667%;left:27.469136%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							家簽署的全新共同申報準則（Common Reporting System），將
+						</p>
+						<p class="textItem " style="top:68.287037%;left:27.469136%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							於2018年生效。根據系統要求，所有銀行及金融機構均須呈交
+						</p>
+						<p class="textItem " style="top:69.907407%;left:27.469136%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							客戶的敏感資料。這將令業界陷入另一個僵局。此數據庫是國
+						</p>
+						<p class="textItem " style="top:71.527778%;left:27.469136%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							際共享的，以防止洗黑錢活動及其它不當資金流動。其最終結
+						</p>
+						<p class="textItem " style="top:73.148148%;left:27.469136%;width:8.024691%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							果為何，現在還不得而知。
+						</p>
+						<p class="textItem " style="top:74.768519%;left:28.935185%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							那麼，我們是否還值得繼續私人銀行和財富管理的業
+						</p>
+						<p class="textItem " style="top:76.388889%;left:27.469136%;width:15.277778%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							務？還是應該打退堂鼓？這個行業是否還有未來？
+						</p>
+		</div>
+
+		<div class="footer">
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-1.html">1</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-20-21.html">20-21</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-22-23.html">22-23</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-24-25.html">24-25</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-26-27.html">26-27</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-28-29.html">28-29</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink currPage" href="./page-30-31.html">30-31</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-32-33.html">32-33</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-34-35.html">34-35</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-36-37.html">36-37</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-38-39.html">38-39</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-40-41.html">40-41</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-42-43.html">42-43</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-116.html">116</a>
+
+				<a style="color:#3E3E43;" class="footerLink" href="./flipbook.html" target="_blank">
+					<span id="poweredBy"></span>&nbsp;FlippingBook
+				</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+	        if (typeof BASIC_PAGE === 'undefined' && typeof BasicPage !== 'undefined' ){
+	            BASIC_PAGE = new BasicPage();
+	        }
+	        GALLERY_CONTENT = {};
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+

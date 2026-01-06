@@ -1,0 +1,440 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, minimum-scale=0.5, user-scalable=yes, maximum-scale=2.0, target-densitydpi=device-dpi" />
+
+    <title>South China Elite #1</title>
+
+    <meta charset="utf-8">
+
+    <meta name="robots" content="all"/>
+
+	<link href="./styles/style.css" type="text/css" rel="stylesheet" />
+	<link href="./styles/mobile.css" type="text/css" rel="stylesheet" />
+	
+    <script type="text/javascript">
+    CURRENT_PAGE = "16-17";
+    MAIN_PAGE     = "index.html";
+    FILES_FOLDER  = "issue1";
+    HTML5_PUBLICATION = true;
+
+
+    
+    </script>
+	
+	
+	<script src="./javascript/init.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        STATIC_FOLDER = ".";
+        DYNAMIC_FOLDER = "./..";
+
+        PUBLICATION_NAME = "South China Elite #1";
+
+        CURRENT_VERSION = "2.8.16";
+
+        LANGS = ['en','ar','de','es','fi','fr','he','it','ja','nl','no','pl','pt','ru','sv','tr','zh'];
+        PUBLICATION_TYPE = "catalog";
+        VIDEOS_INFO = {};
+
+    var main = function () {
+
+        loadScript('./javascript/localizator.js',function(){});
+
+        if (document.domain.indexOf('publ.com') != -1 || document.domain.indexOf('cld.bz') != -1 || document.domain.indexOf('cld.mobi') != -1 || document.domain.indexOf('cld.local') != -1) {
+            var staticServer = window.location.protocol === 'https:' ? 'https://d2ayihadozxfln.cloudfront.net' : ('http://static.' + window.location.hostname);
+            var url = staticServer + "/publication/" + CURRENT_VERSION + "/basic/cloud.js";
+            loadScript(url,function(){});
+        }
+
+    }
+
+    if (!!window.addEventListener) {
+        window.addEventListener('load', main);
+    } else {
+        window.attachEvent('onload', main);
+    }
+
+    function loadScript(url, callback){
+        var head = document.getElementsByTagName("head")[0];
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = url;
+        head.appendChild(script);
+        if (script.readyState){
+            script.onreadystatechange = function(){
+                if (script.readyState == "loaded" ||
+						script.readyState == "complete"){
+                    script.onreadystatechange = null;
+                    callback();
+                }
+            };
+        } else {
+            script.onload = function(){
+                callback();
+            };
+        }
+    }
+    </script>
+
+
+    <style type="text/css">
+        .areaLinkItem:hover, .contentItemHover:hover, .emptyImage:hover
+        {
+            	
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3FC7FF,endColorstr=#3FC7FF);
+	zoom:1;
+	
+	background:rgb(63,199,255);
+	background:rgba(63,199,255, 0.5);
+	
+
+        }
+
+
+
+    </style>
+</head>
+<body style="font-size: 20px; background-color: #ECF0F1;">
+	<div class="infoPopUp" id="infoPopUp" ></div>
+	<div class="popUp" id="popUp">
+		<a id="closeButton" class="closeButtonPopUp" href="#"></a>
+		<table class="popUpTable">
+			<tbody>
+				<tr>
+					<td>
+						<img alt="Cover" src="./../flash/pages/page0001_s.png" class="popUpCover" />
+					</td>
+					<td>
+						<h4 id="popupTitle">&nbsp;</h4>
+						<p id="popupText"></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="toolbar">
+		<ul class="zoomContainer" id="zoomContainer">
+			<li>
+				<a class="zoomInButton" id="zoomIn" href="#">
+					<img src="styles/zoomIn.png" alt="Zoom In" />
+				</a>
+			</li>
+			<li>
+				<a class="zoomOutButton" id="zoomOut" href="#">
+					<img src="styles/zoomOut.png" alt="Zoom Out" />
+				</a>
+			</li>
+		</ul>
+
+		
+		
+		<div class="toolbarButtons">
+		    
+				<ul class="downloadButton toolbarLink">
+					<li class="iconLi">
+						<img class="iconToolbar" src="styles/save.png" alt="Downloads" />
+                        <img class="iconToolbar mobile" src="styles/save-mobile.png" alt="Downloads" />
+					</li>
+						<li id="downloadPdf" class="downloadSubMenu">
+							<a id="downloadPdfLink" href="./../common/downloads/publication.pdf" target="_blank"></a>
+						</li>
+										                    					
+				</ul>
+		</div>
+
+		
+		
+
+			<a id="pagePrevArrow" class="toLeftButton toolbarLink internalLink" href="./page-14-15.html"><img class="iconToolbar" src="styles/previous.png" alt="Previous Page" /></a>
+        
+		<span class="pager"><span id="pageLabel"></span>&nbsp;16-17 / 116</span>
+
+				<a id="nextPageArrow" class="toRightButton toolbarLink internalLink" href="./page-18-19.html"><img class="iconToolbar" src="styles/next.png" alt="Next Page" /></a>
+
+		<ul class="sharingContainer">
+			<li>
+				<a class="facebookShare" id="facebookShare" href="#" target="_blank">
+                    <img src="styles/facebook_32.png" alt="Share on Facebook" />
+					<span id="facebookShareText" class="shareTitleMenu"></span>
+				</a>
+			</li>
+			<li>
+                <a class="twitterShare" id="twitterShare" href="#" target="_blank">
+                    <img src="styles/twitter_32.png" alt="Tweet" />
+                    <span id="twitterShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="linkedinShare" id="linkedinShare" href="#" target="_blank">
+                    <img src="styles/linkedin_32.png" alt="Share on LinkedIn" />
+                    <span id="linkedinShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="tumblrShare" id="tumblrShare" href="#" target="_blank">
+                    <img src="styles/tumblr_32.png" alt="Share on Tumblr" />
+                    <span id="tumblrShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="googleShare" id="googleShare" href="#" target="_blank">
+                    <img src="styles/google_32.png" alt="Share on Google+" />
+                    <span id="googleShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="mailShare" id="mailShare" href="#" target="_blank">
+                    <img src="styles/email_32.png" alt="E-mail" />
+                    <span id="mailShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="vkShare" id="vkShare" href="#" target="_blank">
+                    <img src="styles/vk_32.png" alt="Share on VK" />
+                    <span id="vkShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+		</ul>
+
+
+		<div class="verContainer" id="verContainer">
+			<span id="basicVersionTitle" class="basicInfoTitle"></span>
+			<a id="infoButton" class="toolbarLink info" href="#"><img class="iconInfo" src="styles/info.png" alt="Information" /></a>
+
+		</div>
+	</div>
+
+	<div class="mainFrame" id="mainFrame">
+
+		<a class="mobileMenuButton" id="mobileMenuButton">
+            <img src="styles/mobile-menu.png" alt="Show Menu" style="" />
+		</a>
+
+		<div class="mobileNav">
+					<a class="toLeftButton toolbarLink internalLink" href="./page-14-15.html"><img class="iconToolbar" src="styles/prev-mob.png" alt="Previous Page" /></a>
+			<span class="pager">16-17 / 116</span>
+					<a class="toRightButton toolbarLink internalLink" href="./page-18-19.html"><img class="iconToolbar" src="styles/next-mob.png" alt="Next Page" /></a>
+		</div>
+
+		<div id="pageContainer" class="pageContainer" style="width: 1296px; height: 864px; margin: 40px 0 0 -648px; background-color:#FFFFFF;">
+			<img alt="Page Background" src="./../common/page-substrates/page0009.jpg" style="width: 100%; height: 100%;">
+
+
+						<p class="textItem testString" style="top:93.750000%;left:94.598765%;width:0.848765%;height:1.504630%;font-size:0.500000em;color:#221F20;font-family:Abel;">
+							17
+						</p>
+						<p class="textItem " style="top:93.750000%;left:4.475309%;width:0.848765%;height:1.504630%;font-size:0.500000em;color:#221F20;font-family:Abel;">
+							16
+						</p>
+						<p class="textItem testString" style="top:5.671296%;left:4.629630%;width:4.938272%;height:1.620370%;font-size:0.600000em;color:#221F20;font-family:Fashion Didot;">
+							SOUTH CHINA ELITE
+						</p>
+						<p class="textItem testString" style="top:13.078704%;left:75.694444%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<b>BB: Is that why you continue to study to this</b>
+						</p>
+						<p class="textItem " style="top:14.699074%;left:74.228395%;width:1.697531%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<b>day?</b>
+						</p>
+						<p class="textItem " style="top:16.319444%;left:75.694444%;width:1.157407%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							<b>BT:</b>
+						</p>
+						<p class="textItem testString" style="top:16.319444%;left:77.083333%;width:15.277778%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Yes because the more you know, or think you
+						</p>
+						<p class="textItem " style="top:17.939815%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							know, the more you realize that you don’t actually
+						</p>
+						<p class="textItem " style="top:19.560185%;left:74.228395%;width:16.820988%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							know much at all. It’s this whole notion of enquiry.
+						</p>
+						<p class="textItem " style="top:21.180556%;left:75.694444%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							When you’re teaching Nobel Prize winners and
+						</p>
+						<p class="textItem " style="top:22.800926%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							national scholars and the best brains in the world at
+						</p>
+						<p class="textItem " style="top:24.421296%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							the best schools, that’s a pretty good way to realize
+						</p>
+						<p class="textItem " style="top:26.041667%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							how much more there is to know. And that’s not false
+						</p>
+						<p class="textItem " style="top:27.662037%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							modesty, it’s true – I still go to some classes and have no
+						</p>
+						<p class="textItem " style="top:29.282407%;left:74.228395%;width:10.956790%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							clue what they are talking about!
+						</p>
+						<p class="textItem " style="top:30.902778%;left:75.694444%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							So that is reinforcement of what you don’t know.
+						</p>
+						<p class="textItem " style="top:32.523148%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							When you have a modest amount of diverse clients who
+						</p>
+						<p class="textItem " style="top:34.143519%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							are paying you good money, you owe it to them to not
+						</p>
+						<p class="textItem " style="top:35.763889%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							only be able to keep up but to be a valuable contributor
+						</p>
+						<p class="textItem " style="top:37.384259%;left:74.228395%;width:4.938272%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							to your clients.
+						</p>
+						<p class="textItem " style="top:39.004630%;left:75.694444%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							Think about it in the context of medicine. Do you
+						</p>
+						<p class="textItem " style="top:40.625000%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							really want your brain operation from someone that
+						</p>
+						<p class="textItem " style="top:42.245370%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							earned their degree many, many years ago and has
+						</p>
+						<p class="textItem " style="top:43.865741%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							done a couple of online courses since or do you want
+						</p>
+						<p class="textItem " style="top:45.486111%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							to know that your surgeon is really employing state of
+						</p>
+						<p class="textItem " style="top:47.106481%;left:74.228395%;width:17.669753%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							the art technology? Of course you want the very best!
+						</p>
+						<p class="textItem " style="top:48.726852%;left:75.694444%;width:16.589506%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							If you have a patient on the table and you must
+						</p>
+						<p class="textItem " style="top:50.347222%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							execute a corporate operation, who do you really want
+						</p>
+						<p class="textItem " style="top:51.967593%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							to operate on you? The only way is to not only study
+						</p>
+						<p class="textItem " style="top:53.587963%;left:74.228395%;width:18.132716%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							regularly and with a passion but also to practice the
+						</p>
+						<p class="textItem " style="top:55.208333%;left:74.228395%;width:11.033951%;height:1.273148%;font-size:0.450000em;color:#221F20;font-family:Droid Serif;">
+							very latest theories and methods.
+						</p>
+						<p class="textItem testString" style="top:59.490741%;left:75.617284%;width:12.422840%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							本思齊：這是你至今一直學習的原因嗎？
+						</p>
+						<p class="textItem " style="top:61.111111%;left:75.617284%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							Brian To博士：是的。當一個人知道得愈多，或認為自己
+						</p>
+						<p class="textItem " style="top:62.731481%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							知道得愈多時，才發覺自己知道的其實很少。這就是研究探索
+						</p>
+						<p class="textItem " style="top:64.351852%;left:74.228395%;width:2.700617%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							的核心。
+						</p>
+						<p class="textItem " style="top:65.972222%;left:75.617284%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							在著名學府教導諾貝爾獎得主、各國頂級學者及全球精
+						</p>
+						<p class="textItem " style="top:67.592593%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							英時，讓人明白到自己要學習的還有很多！這不是客氣話，
+						</p>
+						<p class="textItem " style="top:69.212963%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							而是真確的——有時候，我出席某些課程時，還真的不知道
+						</p>
+						<p class="textItem " style="top:70.833333%;left:74.228395%;width:4.861111%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							他們在談甚麼！
+						</p>
+						<p class="textItem " style="top:72.453704%;left:75.617284%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							這有助於找出知識的盲點。當你有一定數量、來自不
+						</p>
+						<p class="textItem " style="top:74.074074%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							同背景的客戶向你支付學費時，你的責任就不限於與他們接
+						</p>
+						<p class="textItem " style="top:75.694444%;left:74.228395%;width:11.033951%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							軌，而更需要為他們提供寶貴意見。
+						</p>
+						<p class="textItem " style="top:77.314815%;left:75.617284%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							以醫學為例，如果要接受腦部手術，你會選擇一位畢業
+						</p>
+						<p class="textItem " style="top:78.935185%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							多年，後來完成了幾個遙距課程的醫生，還是一個真正採用
+						</p>
+						<p class="textItem " style="top:80.555556%;left:74.228395%;width:14.506173%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							最先進技術的醫生？選擇最好的，是人之常情。
+						</p>
+						<p class="textItem " style="top:82.175926%;left:75.617284%;width:16.743827%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							如果躺在手術床上的病人是一家企業，你希望誰來操
+						</p>
+						<p class="textItem " style="top:83.796296%;left:74.228395%;width:18.132716%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							刀？唯一的選擇，就是專心致志地學習，並應用最新的理論
+						</p>
+						<p class="textItem " style="top:85.416667%;left:74.228395%;width:2.777778%;height:1.041667%;font-size:0.450000em;color:#221F20;font-family:Sim Sun;">
+							及方法。
+						</p>
+						<p class="textItem " style="top:15.972222%;left:56.867284%;width:13.040123%;height:3.587963%;font-size:1.200000em;color:#221F20;font-family:Abel;">
+							My teaching is based
+						</p>
+						<p class="textItem " style="top:19.444444%;left:56.867284%;width:12.114198%;height:3.587963%;font-size:1.200000em;color:#221F20;font-family:Abel;">
+							on the theory of the
+						</p>
+						<p class="textItem " style="top:22.916667%;left:56.867284%;width:11.728395%;height:3.587963%;font-size:1.200000em;color:#221F20;font-family:Abel;">
+							subjectmatter but
+						</p>
+						<p class="textItem " style="top:26.388889%;left:56.867284%;width:9.799383%;height:3.587963%;font-size:1.200000em;color:#221F20;font-family:Abel;">
+							also the applied
+						</p>
+						<p class="textItem " style="top:29.861111%;left:56.867284%;width:12.500000%;height:3.587963%;font-size:1.200000em;color:#221F20;font-family:Abel;">
+							practical experience
+						</p>
+						<p class="textItem " style="top:33.333333%;left:56.867284%;width:7.175926%;height:3.587963%;font-size:1.200000em;color:#221F20;font-family:Abel;">
+							of mywork.
+						</p>
+						<p class="textItem testString" style="top:43.634259%;left:56.867284%;width:12.422840%;height:3.587963%;font-size:1.200000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							我的教學重視理
+						</p>
+						<p class="textItem " style="top:47.106481%;left:56.867284%;width:12.422840%;height:3.587963%;font-size:1.200000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							論及應用本人工
+						</p>
+						<p class="textItem " style="top:50.578704%;left:56.867284%;width:12.422840%;height:3.587963%;font-size:1.200000em;color:#221F20;font-family:Microsoft Jheng Hei Bold;">
+							作的實際經驗。
+						</p>
+		</div>
+
+		<div class="footer">
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-1.html">1</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-6-7.html">6-7</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-8-9.html">8-9</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-10-11.html">10-11</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-12-13.html">12-13</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-14-15.html">14-15</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink currPage" href="./page-16-17.html">16-17</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-18-19.html">18-19</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-20-21.html">20-21</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-22-23.html">22-23</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-24-25.html">24-25</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-26-27.html">26-27</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-28-29.html">28-29</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-116.html">116</a>
+
+				<a style="color:#3E3E43;" class="footerLink" href="./flipbook.html" target="_blank">
+					<span id="poweredBy"></span>&nbsp;FlippingBook
+				</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+	        if (typeof BASIC_PAGE === 'undefined' && typeof BasicPage !== 'undefined' ){
+	            BASIC_PAGE = new BasicPage();
+	        }
+	        GALLERY_CONTENT = {};
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
